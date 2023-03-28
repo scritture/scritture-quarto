@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+#  title: "scritture"
+
+  navbar:
+    logo: "/images/scritture_logo.png"
+    left: 
+      - text: Grandtour Book Wine Bar
+        href: https://grandtour.shop/
+      - text: Escamontage
+        href: https://escamontage.wordpress.com/
+      
+    right:
+      - about.qmd
+      - icon: linkedin
+        href: https://www.linkedin.com/groups/4880518/
+      - icon: twitter
+        href: https://twitter.com/tweet_scritture
+      - icon: facebook
+        href: https://www.facebook.com/search/scritturemagazine
+      - icon: envelope
+        href: mailto:grandtour.frascati@gmail.com
+        aria-label: Email
+format:
+  html:
+    theme: united
+    css: styles.css
+    toc: true
+
+editor: visual
+lang: it
+
+
+about:
+  template: marquee
+

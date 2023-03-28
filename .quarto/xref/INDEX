@@ -1,0 +1,932 @@
+{
+  "index.qmd": {
+    "index.html": "41c7635b"
+  },
+  "about.qmd": {
+    "about.html": "275428ce"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "ce83be10"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "680a599c"
+  },
+  "posts/pages/blog/2017-11-13-colpo-di-stato-malaparte.md": {
+    "2017-11-13-colpo-di-stato-malaparte.html": "537674e2"
+  },
+  "posts/pages/blog/2012-05-04-il-pianeta-dei-famosi.md": {
+    "2012-05-04-il-pianeta-dei-famosi.html": "36ee8f58"
+  },
+  "posts/pages/blog/2016-05-23-un-rosario-per-pannella.md": {
+    "2016-05-23-un-rosario-per-pannella.html": "d164c30e"
+  },
+  "posts/pages/blog/2016-01-15-cinque-questioni-su-david-bowie.md": {
+    "2016-01-15-cinque-questioni-su-david-bowie.html": "21ef3256"
+  },
+  "posts/pages/blog/2015-12-15-le-guerre-di-marcantonio-colonna-e-lo-statuto-di-frascati-del-1515.md": {
+    "2015-12-15-le-guerre-di-marcantonio-colonna-e-lo-statuto-di-frascati-del-1515.html": "f088e69e"
+  },
+  "posts/pages/blog/2012-05-14-montale-natura-innocenza-linguaggio.md": {
+    "2012-05-14-montale-natura-innocenza-linguaggio.html": "998a73d6"
+  },
+  "posts/pages/blog/2017-07-30-i-pornografici-profitti-del-capitale.md": {
+    "2017-07-30-i-pornografici-profitti-del-capitale.html": "617b3c41"
+  },
+  "posts/pages/blog/2017-09-27-il-bambino-senza-tempo.md": {
+    "2017-09-27-il-bambino-senza-tempo.html": "f0fc8c43"
+  },
+  "posts/pages/blog/2015-05-06-montale-novecento.md": {
+    "2015-05-06-montale-novecento.html": "2e862aa9"
+  },
+  "posts/pages/blog/2016-10-11-il-continuo-ritorno-della-dama-bianca.md": {
+    "2016-10-11-il-continuo-ritorno-della-dama-bianca.html": "7015f037"
+  },
+  "posts/pages/blog/2013-10-21-luomo-e-la-gallina.md": {
+    "2013-10-21-luomo-e-la-gallina.html": "154e7b6b"
+  },
+  "posts/pages/blog/2016-02-19-macht-und-denken-slam-di-filosofia-a-lipsia.md": {
+    "2016-02-19-macht-und-denken-slam-di-filosofia-a-lipsia.html": "4c1273d6"
+  },
+  "posts/pages/blog/2017-09-21-montale-kavafis-cristiano-luciani.md": {
+    "2017-09-21-montale-kavafis-cristiano-luciani.html": "4d2e4da5"
+  },
+  "posts/pages/blog/2017-10-31-i-giornalisti-americani-e-il-giornalismo-fascista.md": {
+    "2017-10-31-i-giornalisti-americani-e-il-giornalismo-fascista.html": "06061275"
+  },
+  "posts/pages/blog/2016-06-26-bisogna-saper-vincere.md": {
+    "2016-06-26-bisogna-saper-vincere.html": "1edafca7"
+  },
+  "posts/pages/blog/2013-07-25-cavaliere-armi-amori-storia-italia.md": {
+    "2013-07-25-cavaliere-armi-amori-storia-italia.html": "09c9b923"
+  },
+  "posts/pages/blog/2016-05-02-colonizzazione-dellimmaginario-e-controllo-sociale.md": {
+    "2016-05-02-colonizzazione-dellimmaginario-e-controllo-sociale.html": "d6b9d5de"
+  },
+  "posts/pages/blog/2012-05-16-monopoli-risiko-guerre-globali-crisi-finanziarie.md": {
+    "2012-05-16-monopoli-risiko-guerre-globali-crisi-finanziarie.html": "e8b11837"
+  },
+  "posts/pages/blog/2016-04-05-larte-egocentrica-mondiale-sta-uccidendo-larte.md": {
+    "2016-04-05-larte-egocentrica-mondiale-sta-uccidendo-larte.html": "76bd7104"
+  },
+  "posts/pages/blog/2016-09-11-11-settembre-vuoto-cielo.md": {
+    "2016-09-11-11-settembre-vuoto-cielo.html": "e4954f7f"
+  },
+  "posts/pages/blog/2016-07-02-il-disgusto-della-democrazia.md": {
+    "2016-07-02-il-disgusto-della-democrazia.html": "5db77287"
+  },
+  "posts/pages/blog/2014-04-29-strade-di-fener.md": {
+    "2014-04-29-strade-di-fener.html": "f1c3d28f"
+  },
+  "posts/pages/blog/2016-02-15-il-largo-sguardo-deuropa-e-la-poesia-di-faraon-meteoses.md": {
+    "2016-02-15-il-largo-sguardo-deuropa-e-la-poesia-di-faraon-meteoses.html": "25f55f7a"
+  },
+  "posts/pages/blog/2016-10-31-horror-epica-dialogo.md": {
+    "2016-10-31-horror-epica-dialogo.html": "70f3ca6f"
+  },
+  "posts/pages/blog/2016-03-05-rovine-deuropa.md": {
+    "2016-03-05-rovine-deuropa.html": "691069b2"
+  },
+  "posts/pages/blog/2016-04-02-aaa-industria-filosofica-nel-salento.md": {
+    "2016-04-02-aaa-industria-filosofica-nel-salento.html": "9a8b8ed6"
+  },
+  "posts/pages/blog/2015-02-28-i-colori-del-noir.md": {
+    "2015-02-28-i-colori-del-noir.html": "4b68dbb7"
+  },
+  "posts/pages/blog/2017-09-30-contro-i-vaccini-opinioni.md": {
+    "2017-09-30-contro-i-vaccini-opinioni.html": "da7ef3f7"
+  },
+  "posts/pages/blog/2015-10-31-fantasmi-a-berlino.md": {
+    "2015-10-31-fantasmi-a-berlino.html": "3be953ad"
+  },
+  "posts/pages/blog/2013-01-13-il-tredicesimo-mese-aforismi.md": {
+    "2013-01-13-il-tredicesimo-mese-aforismi.html": "e1e2d5b9"
+  },
+  "posts/pages/blog/2016-02-25-variazioni-della-differenza-derrida-e-coleman.md": {
+    "2016-02-25-variazioni-della-differenza-derrida-e-coleman.html": "ac25b645"
+  },
+  "posts/pages/blog/2017-04-18-miles-davis-e-ferruccio-busoni-lontane-risonanze.md": {
+    "2017-04-18-miles-davis-e-ferruccio-busoni-lontane-risonanze.html": "4cd512f2"
+  },
+  "posts/pages/blog/2015-07-27-la-grecia-leuropa-e-i-conti-della-serva.md": {
+    "2015-07-27-la-grecia-leuropa-e-i-conti-della-serva.html": "a2907cc0"
+  },
+  "posts/pages/blog/2017-03-23-aspetti-etici-del-testamento-biologico.md": {
+    "2017-03-23-aspetti-etici-del-testamento-biologico.html": "523b9f05"
+  },
+  "posts/pages/blog/2016-04-04-omicidio-varani-nuove-identita-del-male.md": {
+    "2016-04-04-omicidio-varani-nuove-identita-del-male.html": "65020548"
+  },
+  "posts/pages/blog/2012-09-05-bologna-porte-zodiaco-musica.md": {
+    "2012-09-05-bologna-porte-zodiaco-musica.html": "42994741"
+  },
+  "posts/pages/blog/2016-08-09-cose-turche.md": {
+    "2016-08-09-cose-turche.html": "63bfbe6b"
+  },
+  "posts/pages/blog/2016-09-06-il-burkini-e-lo-scandalo-del-coprirsi.md": {
+    "2016-09-06-il-burkini-e-lo-scandalo-del-coprirsi.html": "4f32ffba"
+  },
+  "posts/pages/blog/2016-09-07-storia-bombe-frascati-distruzione-tuscolo.md": {
+    "2016-09-07-storia-bombe-frascati-distruzione-tuscolo.html": "e5dfde7d"
+  },
+  "posts/pages/blog/2012-10-09-soundcentral-come-divertirsi-a-kabul.md": {
+    "2012-10-09-soundcentral-come-divertirsi-a-kabul.html": "3e7790b0"
+  },
+  "posts/pages/blog/2016-06-27-philip-k-dick-il-filosofo-mascherato.md": {
+    "2016-06-27-philip-k-dick-il-filosofo-mascherato.html": "c26b9e39"
+  },
+  "posts/pages/blog/2016-07-27-nuova-chiesa-e-nuova-politica.md": {
+    "2016-07-27-nuova-chiesa-e-nuova-politica.html": "cc41e8a3"
+  },
+  "posts/pages/blog/2016-06-05-scorre-il-sangue-fertile-la-terra-la-pasola-di-sumba.md": {
+    "2016-06-05-scorre-il-sangue-fertile-la-terra-la-pasola-di-sumba.html": "a407604d"
+  },
+  "posts/pages/blog/2016-12-31-momenti-della-fine.md": {
+    "2016-12-31-momenti-della-fine.html": "f4bcdf82"
+  },
+  "posts/pages/blog/2016-05-27-tutti-contro-il-ttip.md": {
+    "2016-05-27-tutti-contro-il-ttip.html": "6a7910e7"
+  },
+  "posts/pages/blog/2016-10-30-berlino-dopo-lunione.md": {
+    "2016-10-30-berlino-dopo-lunione.html": "1cf12ece"
+  },
+  "posts/pages/blog/2013-09-20-siria-guerra-informazione.md": {
+    "2013-09-20-siria-guerra-informazione.html": "8bf0000a"
+  },
+  "posts/pages/blog/2016-03-03-gianni-celati-e-la-fuga-dalla-letteratura.md": {
+    "2016-03-03-gianni-celati-e-la-fuga-dalla-letteratura.html": "60097803"
+  },
+  "posts/pages/blog/2012-08-09-comunicare-e-vivere.md": {
+    "2012-08-09-comunicare-e-vivere.html": "f7266e40"
+  },
+  "posts/pages/blog/index.md": {
+    "index.html": "f3a6d4d8"
+  },
+  "posts/pages/blog/2017-10-19-leonardo-da-vinci-historia-di-una-sbronza.md": {
+    "2017-10-19-leonardo-da-vinci-historia-di-una-sbronza.html": "081a1ba2"
+  },
+  "posts/pages/blog/2016-07-05-storie-dalla-jihad.md": {
+    "2016-07-05-storie-dalla-jihad.html": "e5846e1e"
+  },
+  "posts/pages/blog/2017-11-01-catalogna-2017.md": {
+    "2017-11-01-catalogna-2017.html": "6a6bf5a5"
+  },
+  "posts/pages/blog/2013-02-09-dentro-le-foibe.md": {
+    "2013-02-09-dentro-le-foibe.html": "d331d524"
+  },
+  "posts/pages/blog/2017-08-15-italia-terra-di-transito-martino.md": {
+    "2017-08-15-italia-terra-di-transito-martino.html": "211cc29d"
+  },
+  "posts/pages/blog/2016-11-29-fidel-castro-eredita.md": {
+    "2016-11-29-fidel-castro-eredita.html": "aab8fe58"
+  },
+  "posts/pages/blog/2015-01-29-charlie-hebdo-e-la-satira-integrale.md": {
+    "2015-01-29-charlie-hebdo-e-la-satira-integrale.html": "5cdf8ab6"
+  },
+  "posts/pages/blog/2016-04-30-dark-reign-politica-e-religione-tra-i-fumetti-e-la-gnosi.md": {
+    "2016-04-30-dark-reign-politica-e-religione-tra-i-fumetti-e-la-gnosi.html": "61092edd"
+  },
+  "posts/pages/blog/2012-06-01-2012-apocalissi-su-misura.md": {
+    "2012-06-01-2012-apocalissi-su-misura.html": "2d533815"
+  },
+  "posts/pages/blog/2012-05-09-ballate-e-danze-dal-basso-impero.md": {
+    "2012-05-09-ballate-e-danze-dal-basso-impero.html": "5f50bfed"
+  },
+  "posts/pages/blog/2017-02-10-animali-uomini-malattia-guarigione.md": {
+    "2017-02-10-animali-uomini-malattia-guarigione.html": "2541072f"
+  },
+  "posts/pages/blog/2013-04-02-i-tre-pontificati-di-benedetto-ix.md": {
+    "2013-04-02-i-tre-pontificati-di-benedetto-ix.html": "89a8f6ee"
+  },
+  "posts/pages/blog/2017-12-04-nature-spirituali-fraccacreta-poesia.md": {
+    "2017-12-04-nature-spirituali-fraccacreta-poesia.html": "9135385a"
+  },
+  "posts/pages/blog/2016-07-23-il-giorno-in-cui-combinammo-qualcosa-di-buono.md": {
+    "2016-07-23-il-giorno-in-cui-combinammo-qualcosa-di-buono.html": "d07fac6e"
+  },
+  "posts/pages/blog/2017-01-06-nobel-dylan.md": {
+    "2017-01-06-nobel-dylan.html": "35d90809"
+  },
+  "posts/pages/blog/2014-11-08-il-tetto-sopra-berlino.md": {
+    "2014-11-08-il-tetto-sopra-berlino.html": "00071bbb"
+  },
+  "posts/pages/blog/2013-03-21-poesie-per-un-giorno-di-primavera.md": {
+    "2013-03-21-poesie-per-un-giorno-di-primavera.html": "25100562"
+  },
+  "posts/pages/blog/2017-05-10-francesco-permunian.md": {
+    "2017-05-10-francesco-permunian.html": "0b2913cd"
+  },
+  "posts/pages/blog/2017-03-16-il-settimo-uomo-nuove-rivelazioni-sul-caso-moro.md": {
+    "2017-03-16-il-settimo-uomo-nuove-rivelazioni-sul-caso-moro.html": "7b84f450"
+  },
+  "posts/pages/blog/2013-05-05-maschile-femminile-sessualita-scrittura-basso-impero.md": {
+    "2013-05-05-maschile-femminile-sessualita-scrittura-basso-impero.html": "8798728b"
+  },
+  "posts/pages/blog/2012-05-17-dalla-nuvolari-sesso-angeli.md": {
+    "2012-05-17-dalla-nuvolari-sesso-angeli.html": "bc083435"
+  },
+  "posts/pages/blog/2016-09-12-sisma-italiana.md": {
+    "2016-09-12-sisma-italiana.html": "35753705"
+  },
+  "posts/pages/blog/2012-09-11-undici-volte-11-settembre.md": {
+    "2012-09-11-undici-volte-11-settembre.html": "c2084966"
+  },
+  "posts/pages/blog/2018-01-09-profilazioni.md": {
+    "2018-01-09-profilazioni.html": "96195800"
+  },
+  "posts/pages/blog/2015-11-25-cul-de-sac.md": {
+    "2015-11-25-cul-de-sac.html": "bc71b9ed"
+  },
+  "posts/pages/blog/2017-04-24-la-russia-leurasia-e-il-multipolarismo.md": {
+    "2017-04-24-la-russia-leurasia-e-il-multipolarismo.html": "389689e9"
+  },
+  "posts/pages/blog/2016-02-12-leuropa-e-i-limiti-della-retorica-antitedesca.md": {
+    "2016-02-12-leuropa-e-i-limiti-della-retorica-antitedesca.html": "28394081"
+  },
+  "posts/pages/blog/2016-06-15-proposte-didattiche-per-una-scuola-meticcia.md": {
+    "2016-06-15-proposte-didattiche-per-una-scuola-meticcia.html": "f8ccd417"
+  },
+  "posts/pages/blog/2017-11-27-premonizioni-del-settantasette.md": {
+    "2017-11-27-premonizioni-del-settantasette.html": "e20848c8"
+  },
+  "posts/pages/blog/2014-12-31-le-parole-del-sesso-taciuto.md": {
+    "2014-12-31-le-parole-del-sesso-taciuto.html": "e4b2e439"
+  },
+  "posts/pages/blog/2016-06-27-gli-spacciatori-di-felicita.md": {
+    "2016-06-27-gli-spacciatori-di-felicita.html": "bff9110d"
+  },
+  "posts/pages/blog/2016-05-05-spam-poetry.md": {
+    "2016-05-05-spam-poetry.html": "bc122977"
+  },
+  "posts/pages/blog/2013-02-16-lacrime-e-barche-sanremo-e-la-politica.md": {
+    "2013-02-16-lacrime-e-barche-sanremo-e-la-politica.html": "57a67786"
+  },
+  "posts/pages/blog/2017-10-09-lotta-armata-giustizia-pop-varia-letteratura.md": {
+    "2017-10-09-lotta-armata-giustizia-pop-varia-letteratura.html": "028150e2"
+  },
+  "posts/pages/blog/2016-03-15-indagini-scientifiche-il-giallo-e-la-matematica.md": {
+    "2016-03-15-indagini-scientifiche-il-giallo-e-la-matematica.html": "f254d1ee"
+  },
+  "posts/pages/blog/2016-06-10-invano.md": {
+    "2016-06-10-invano.html": "ace0ed58"
+  },
+  "posts/pages/blog/2016-06-10-gender-theories-riflessioni-a-margine.md": {
+    "2016-06-10-gender-theories-riflessioni-a-margine.html": "265b8c66"
+  },
+  "posts/pages/blog/2014-07-31-la-palude-letteraria.md": {
+    "2014-07-31-la-palude-letteraria.html": "6174370c"
+  },
+  "posts/pages/blog/2016-06-23-un-monocameralismo-imperfetto-per-una-perfetta-autocrazia.md": {
+    "2016-06-23-un-monocameralismo-imperfetto-per-una-perfetta-autocrazia.html": "99353f65"
+  },
+  "posts/pages/blog/2017-10-24-affinita-e-divergenze-tra-fascismi-e-new-deal.md": {
+    "2017-10-24-affinita-e-divergenze-tra-fascismi-e-new-deal.html": "9096569b"
+  },
+  "posts/pages/blog/2017-05-15-etica-ribelle-scienza-giorello-donghi.md": {
+    "2017-05-15-etica-ribelle-scienza-giorello-donghi.html": "d7150894"
+  },
+  "posts/pages/blog/2012-10-25-contingenze-paesaggio-grizzana-morandi-metropoli.md": {
+    "2012-10-25-contingenze-paesaggio-grizzana-morandi-metropoli.html": "35d2f06b"
+  },
+  "posts/pages/blog/2012-06-06-musica-e-contemporanei.md": {
+    "2012-06-06-musica-e-contemporanei.html": "868a031d"
+  },
+  "posts/pages/blog/2017-03-10-trump-no-global-contro-il-mondo.md": {
+    "2017-03-10-trump-no-global-contro-il-mondo.html": "bb5394bb"
+  },
+  "posts/pages/blog/2015-09-25-istanbul-diario-di-bordo.md": {
+    "2015-09-25-istanbul-diario-di-bordo.html": "bcdbcb75"
+  },
+  "posts/pages/blog/2017-01-25-la-verita-disturbata-della-tecnologia.md": {
+    "2017-01-25-la-verita-disturbata-della-tecnologia.html": "3832a83a"
+  },
+  "posts/pages/blog/2012-09-15-al-qaeda-network-fondamentalismo-islamico.md": {
+    "2012-09-15-al-qaeda-network-fondamentalismo-islamico.html": "c2d5533d"
+  },
+  "posts/pages/blog/2017-04-10-il-noir-e-il-giallo-e-il-thriller-come-arte.md": {
+    "2017-04-10-il-noir-e-il-giallo-e-il-thriller-come-arte.html": "7fe5af99"
+  },
+  "posts/pages/blog/2016-07-18-il-contagio-della-violenza.md": {
+    "2016-07-18-il-contagio-della-violenza.html": "83d78eca"
+  },
+  "posts/pages/blog/2016-02-25-unioni-incivili-e-strutture-parentali-dopo-levi-strauss.md": {
+    "2016-02-25-unioni-incivili-e-strutture-parentali-dopo-levi-strauss.html": "d6151362"
+  },
+  "posts/pages/blog/2016-03-01-orizzonti-editoriali-mondo-digitale.md": {
+    "2016-03-01-orizzonti-editoriali-mondo-digitale.html": "f06c55cb"
+  },
+  "posts/pages/blog/2015-03-28-siamo-morti-da-sempre.md": {
+    "2015-03-28-siamo-morti-da-sempre.html": "b6e704d3"
+  },
+  "posts/pages/blog/2014-09-29-il-tradire-degli-eventi.md": {
+    "2014-09-29-il-tradire-degli-eventi.html": "fea869bf"
+  },
+  "posts/pages/blog/2017-07-15-brindisi-mancati-berlino-metropolis-superman.md": {
+    "2017-07-15-brindisi-mancati-berlino-metropolis-superman.html": "174d3d5f"
+  },
+  "posts/pages/blog/2014-06-30-popsophia-greci-presente.md": {
+    "2014-06-30-popsophia-greci-presente.html": "f9aad94c"
+  },
+  "posts/pages/blog/2016-02-02-lideologia-del-presente.md": {
+    "2016-02-02-lideologia-del-presente.html": "7ef8fedf"
+  },
+  "posts/pages/blog/2016-12-21-theory-filosofia-low-cost.md": {
+    "2016-12-21-theory-filosofia-low-cost.html": "5b359dc6"
+  },
+  "posts/pages/blog/2014-10-27-halloween-dietro-le-quinte.md": {
+    "2014-10-27-halloween-dietro-le-quinte.html": "61de3dc6"
+  },
+  "posts/pages/blog/2017-03-03-una-roma-senza-torri.md": {
+    "2017-03-03-una-roma-senza-torri.html": "b5f09d99"
+  },
+  "posts/pages/blog/2016-05-30-il-neoliberismo-lideologia-senza-nome.md": {
+    "2016-05-30-il-neoliberismo-lideologia-senza-nome.html": "31ad3cc4"
+  },
+  "posts/pages/blog/2016-02-20-la-luce-il-paesaggio-e-il-confine-in-francesco-biamonti.md": {
+    "2016-02-20-la-luce-il-paesaggio-e-il-confine-in-francesco-biamonti.html": "8f4d3f98"
+  },
+  "posts/pages/blog/2017-02-23-dimettersi-da-frocio.md": {
+    "2017-02-23-dimettersi-da-frocio.html": "5a2d1df5"
+  },
+  "posts/pages/blog/2017-05-05-gerardo-marotta-in-tre-atti.md": {
+    "2017-05-05-gerardo-marotta-in-tre-atti.html": "674a323e"
+  },
+  "posts/pages/blog/2012-05-08-zone-di-transito.md": {
+    "2012-05-08-zone-di-transito.html": "d6ac1791"
+  },
+  "posts/pages/blog/2017-05-20-frascati-goethe.md": {
+    "2017-05-20-frascati-goethe.html": "f29d80eb"
+  },
+  "posts/pages/blog/2016-02-23-il-codice-del-mondo.md": {
+    "2016-02-23-il-codice-del-mondo.html": "30270b84"
+  },
+  "posts/pages/blog/2012-07-25-litalia-ha-vinto.md": {
+    "2012-07-25-litalia-ha-vinto.html": "09eb52f0"
+  },
+  "posts/pages/blog/2016-06-01-manicomio-italia-un-quadro-clinico.md": {
+    "2016-06-01-manicomio-italia-un-quadro-clinico.html": "6ec74693"
+  },
+  "posts/pages/blog/post-four.md": {
+    "post-four.html": "fb528760"
+  },
+  "posts/pages/blog/2014-06-02-de-neolingua.md": {
+    "2014-06-02-de-neolingua.html": "c1a24b0f"
+  },
+  "posts/pages/blog/2016-06-18-jeeg-robot-contro-i-kattivi.md": {
+    "2016-06-18-jeeg-robot-contro-i-kattivi.html": "38d89429"
+  },
+  "posts/pages/blog/2016-09-20-palestina-civilta-eno.md": {
+    "2016-09-20-palestina-civilta-eno.html": "75e388f8"
+  },
+  "posts/pages/blog/2013-02-14-declinazioni-dellautore.md": {
+    "2013-02-14-declinazioni-dellautore.html": "1522f7a4"
+  },
+  "posts/pages/blog/2014-08-30-padre-padrino.md": {
+    "2014-08-30-padre-padrino.html": "fad2354f"
+  },
+  "posts/pages/blog/2017-06-15-il-cuore-del-vuoto.md": {
+    "2017-06-15-il-cuore-del-vuoto.html": "24956738"
+  },
+  "posts/pages/blog/2013-05-27-la-clonazione.md": {
+    "2013-05-27-la-clonazione.html": "edfd8b86"
+  },
+  "posts/pages/blog/2013-02-27-conscientia-mea-ratzinger-e-noi.md": {
+    "2013-02-27-conscientia-mea-ratzinger-e-noi.html": "3d5769c5"
+  },
+  "posts/pages/blog/2012-11-03-spazi-vuoti.md": {
+    "2012-11-03-spazi-vuoti.html": "cef501d2"
+  },
+  "posts/pages/blog/2016-11-15-democrazia-critica-habermas.md": {
+    "2016-11-15-democrazia-critica-habermas.html": "a94a75ef"
+  },
+  "posts/pages/blog/2014-12-24-il-premio-frascati-poesia-provincia.md": {
+    "2014-12-24-il-premio-frascati-poesia-provincia.html": "f39135b2"
+  },
+  "posts/pages/blog/2012-05-22-facebook-borsa-relazioni.md": {
+    "2012-05-22-facebook-borsa-relazioni.html": "00dc2ba7"
+  },
+  "posts/pages/blog/2017-02-02-le-avventure-di-saro-e-giambologna.md": {
+    "2017-02-02-le-avventure-di-saro-e-giambologna.html": "697df266"
+  },
+  "posts/pages/blog/2012-10-18-leopardi-e-manzoni-il-degrado-dellitalia-e-della-sua-letteratura.md": {
+    "2012-10-18-leopardi-e-manzoni-il-degrado-dellitalia-e-della-sua-letteratura.html": "daf656b0"
+  },
+  "posts/pages/blog/2016-04-06-il-cane-nella-casa-degli-europei.md": {
+    "2016-04-06-il-cane-nella-casa-degli-europei.html": "64092f70"
+  },
+  "posts/pages/blog/2016-12-09-donne-e-uomini-pregiudizi-e-dati-di-fatto.md": {
+    "2016-12-09-donne-e-uomini-pregiudizi-e-dati-di-fatto.html": "19f0f36f"
+  },
+  "posts/pages/blog/2014-02-24-virus.md": {
+    "2014-02-24-virus.html": "ef0430db"
+  },
+  "posts/pages/blog/2017-11-07-piotr-merkurj-la-pittura-della-luce.md": {
+    "2017-11-07-piotr-merkurj-la-pittura-della-luce.html": "2acce27b"
+  },
+  "posts/pages/blog/post-five.md": {
+    "post-five.html": "b30900bb"
+  },
+  "posts/pages/blog/2012-06-20-spiragli-sulleuropa-quattro-poesie.md": {
+    "2012-06-20-spiragli-sulleuropa-quattro-poesie.html": "73414b55"
+  },
+  "posts/pages/blog/2017-02-19-in-memoria-di-un-ragazzo-suicidato-dalla-madre.md": {
+    "2017-02-19-in-memoria-di-un-ragazzo-suicidato-dalla-madre.html": "43f02ae9"
+  },
+  "posts/pages/blog/2012-05-10-possedimenti-memorie-tuscolo.md": {
+    "2012-05-10-possedimenti-memorie-tuscolo.html": "ea567745"
+  },
+  "posts/pages/blog/2016-06-13-mein-kampf-per-tutti.md": {
+    "2016-06-13-mein-kampf-per-tutti.html": "9336a070"
+  },
+  "posts/pages/blog/2016-09-18-facendo-video-tiziana-cantone.md": {
+    "2016-09-18-facendo-video-tiziana-cantone.html": "4086f1e4"
+  },
+  "posts/pages/blog/2016-06-27-sottoproletariato-cognitivo-italia.md": {
+    "2016-06-27-sottoproletariato-cognitivo-italia.html": "8e0329b3"
+  },
+  "posts/pages/blog/2012-07-24-batman-informazione-fumetti-stragi.md": {
+    "2012-07-24-batman-informazione-fumetti-stragi.html": "32c5fe9f"
+  },
+  "posts/pages/blog/2016-07-01-hikikomori-leibniz.md": {
+    "2016-07-01-hikikomori-leibniz.html": "ba58e19c"
+  },
+  "posts/pages/blog/2016-04-15-chi-paga-per-la-condivisione.md": {
+    "2016-04-15-chi-paga-per-la-condivisione.html": "81b0eee8"
+  },
+  "posts/pages/blog/2015-08-28-cocktail-bulgaro.md": {
+    "2015-08-28-cocktail-bulgaro.html": "9962bcb7"
+  },
+  "posts/pages/blog/2016-07-15-brexit-come-perdere-contro-se-stessi.md": {
+    "2016-07-15-brexit-come-perdere-contro-se-stessi.html": "60acac53"
+  },
+  "posts/pages/blog/2016-08-11-compiti-per-le-vacanze.md": {
+    "2016-08-11-compiti-per-le-vacanze.html": "da481dbc"
+  },
+  "posts/pages/blog/2017-06-27-frascati-citta-mai-vista.md": {
+    "2017-06-27-frascati-citta-mai-vista.html": "67216144"
+  },
+  "posts/pages/grandtour.md": {
+    "grandtour.html": "15cae781"
+  },
+  "posts/pages/contatti.md": {
+    "contatti.html": "225d2477"
+  },
+  "posts/pages/index.md": {
+    "index.html": "f0a59183"
+  },
+  "posts/pages/licenza.md": {
+    "licenza.html": "e9911888"
+  },
+  "posts/pages/diario.md": {
+    "diario.html": "7fb90437"
+  },
+  "posts/pages/2017-02-10-animali-uomini-malattia-guarigione.md": {
+    "2017-02-10-animali-uomini-malattia-guarigione.html": "28305be1"
+  },
+  "posts/pages/2012-05-04-il-pianeta-dei-famosi.md": {
+    "2012-05-04-il-pianeta-dei-famosi.html": "dba7324f"
+  },
+  "posts/pages/2016-12-21-theory-filosofia-low-cost.md": {
+    "2016-12-21-theory-filosofia-low-cost.html": "958c5b1e"
+  },
+  "posts/pages/2016-06-10-gender-theories-riflessioni-a-margine.md": {
+    "2016-06-10-gender-theories-riflessioni-a-margine.html": "3e960719"
+  },
+  "posts/pages/2016-09-20-palestina-civilta-eno.md": {
+    "2016-09-20-palestina-civilta-eno.html": "00c61a18"
+  },
+  "posts/pages/2015-01-29-charlie-hebdo-e-la-satira-integrale.md": {
+    "2015-01-29-charlie-hebdo-e-la-satira-integrale.html": "d39d0332"
+  },
+  "posts/pages/2015-11-25-cul-de-sac.md": {
+    "2015-11-25-cul-de-sac.html": "a10d461e"
+  },
+  "posts/pages/2014-06-02-de-neolingua.md": {
+    "2014-06-02-de-neolingua.html": "b2b6cf2b"
+  },
+  "posts/pages/2016-10-31-horror-epica-dialogo.md": {
+    "2016-10-31-horror-epica-dialogo.html": "5c9a711e"
+  },
+  "posts/pages/2016-09-11-11-settembre-vuoto-cielo.md": {
+    "2016-09-11-11-settembre-vuoto-cielo.html": "7c5334e9"
+  },
+  "posts/pages/2017-01-25-la-verita-disturbata-della-tecnologia.md": {
+    "2017-01-25-la-verita-disturbata-della-tecnologia.html": "faa336dd"
+  },
+  "posts/pages/2017-02-19-in-memoria-di-un-ragazzo-suicidato-dalla-madre.md": {
+    "2017-02-19-in-memoria-di-un-ragazzo-suicidato-dalla-madre.html": "a911fcd5"
+  },
+  "posts/pages/2013-05-05-maschile-femminile-sessualita-scrittura-basso-impero.md": {
+    "2013-05-05-maschile-femminile-sessualita-scrittura-basso-impero.html": "66a0c805"
+  },
+  "posts/pages/2016-12-09-donne-e-uomini-pregiudizi-e-dati-di-fatto.md": {
+    "2016-12-09-donne-e-uomini-pregiudizi-e-dati-di-fatto.html": "042535dd"
+  },
+  "posts/pages/2017-05-15-etica-ribelle-scienza-giorello-donghi.md": {
+    "2017-05-15-etica-ribelle-scienza-giorello-donghi.html": "a3678afa"
+  },
+  "posts/pages/2016-09-18-facendo-video-tiziana-cantone.md": {
+    "2016-09-18-facendo-video-tiziana-cantone.html": "e79324ec"
+  },
+  "posts/pages/2016-05-23-un-rosario-per-pannella.md": {
+    "2016-05-23-un-rosario-per-pannella.html": "62a9f4c1"
+  },
+  "posts/pages/2016-06-05-scorre-il-sangue-fertile-la-terra-la-pasola-di-sumba.md": {
+    "2016-06-05-scorre-il-sangue-fertile-la-terra-la-pasola-di-sumba.html": "7e66c63f"
+  },
+  "posts/pages/2012-11-03-spazi-vuoti.md": {
+    "2012-11-03-spazi-vuoti.html": "66fbdb7c"
+  },
+  "posts/pages/2016-06-23-un-monocameralismo-imperfetto-per-una-perfetta-autocrazia.md": {
+    "2016-06-23-un-monocameralismo-imperfetto-per-una-perfetta-autocrazia.html": "d778d494"
+  },
+  "posts/pages/2017-05-20-frascati-goethe.md": {
+    "2017-05-20-frascati-goethe.html": "78b19513"
+  },
+  "posts/pages/2014-11-08-il-tetto-sopra-berlino.md": {
+    "2014-11-08-il-tetto-sopra-berlino.html": "63ba136a"
+  },
+  "posts/pages/2017-10-24-affinita-e-divergenze-tra-fascismi-e-new-deal.md": {
+    "2017-10-24-affinita-e-divergenze-tra-fascismi-e-new-deal.html": "6bfc3429"
+  },
+  "posts/pages/2016-03-05-rovine-deuropa.md": {
+    "2016-03-05-rovine-deuropa.html": "6222cf55"
+  },
+  "posts/pages/2016-05-30-il-neoliberismo-lideologia-senza-nome.md": {
+    "2016-05-30-il-neoliberismo-lideologia-senza-nome.html": "6ed7c9d6"
+  },
+  "posts/pages/2012-05-17-dalla-nuvolari-sesso-angeli.md": {
+    "2012-05-17-dalla-nuvolari-sesso-angeli.html": "fadc5e49"
+  },
+  "posts/pages/2012-10-18-leopardi-e-manzoni-il-degrado-dellitalia-e-della-sua-letteratura.md": {
+    "2012-10-18-leopardi-e-manzoni-il-degrado-dellitalia-e-della-sua-letteratura.html": "0d1acb16"
+  },
+  "posts/pages/2016-02-12-leuropa-e-i-limiti-della-retorica-antitedesca.md": {
+    "2016-02-12-leuropa-e-i-limiti-della-retorica-antitedesca.html": "42738dfb"
+  },
+  "posts/pages/2016-07-01-hikikomori-leibniz.md": {
+    "2016-07-01-hikikomori-leibniz.html": "2ce661a2"
+  },
+  "posts/pages/2013-02-16-lacrime-e-barche-sanremo-e-la-politica.md": {
+    "2013-02-16-lacrime-e-barche-sanremo-e-la-politica.html": "ea29ec0f"
+  },
+  "posts/pages/2016-07-18-il-contagio-della-violenza.md": {
+    "2016-07-18-il-contagio-della-violenza.html": "cb4ac468"
+  },
+  "posts/pages/2017-04-10-il-noir-e-il-giallo-e-il-thriller-come-arte.md": {
+    "2017-04-10-il-noir-e-il-giallo-e-il-thriller-come-arte.html": "0a73d512"
+  },
+  "posts/pages/2016-02-15-il-largo-sguardo-deuropa-e-la-poesia-di-faraon-meteoses.md": {
+    "2016-02-15-il-largo-sguardo-deuropa-e-la-poesia-di-faraon-meteoses.html": "8a31664d"
+  },
+  "posts/pages/2012-09-05-bologna-porte-zodiaco-musica.md": {
+    "2012-09-05-bologna-porte-zodiaco-musica.html": "74d587cb"
+  },
+  "posts/pages/2017-04-24-la-russia-leurasia-e-il-multipolarismo.md": {
+    "2017-04-24-la-russia-leurasia-e-il-multipolarismo.html": "72c919ed"
+  },
+  "posts/pages/2013-01-13-il-tredicesimo-mese-aforismi.md": {
+    "2013-01-13-il-tredicesimo-mese-aforismi.html": "76710933"
+  },
+  "posts/pages/2017-09-27-il-bambino-senza-tempo.md": {
+    "2017-09-27-il-bambino-senza-tempo.html": "9bade041"
+  },
+  "posts/pages/2018-01-09-profilazioni.md": {
+    "2018-01-09-profilazioni.html": "768b8cf8"
+  },
+  "posts/pages/2016-03-15-indagini-scientifiche-il-giallo-e-la-matematica.md": {
+    "2016-03-15-indagini-scientifiche-il-giallo-e-la-matematica.html": "eb5b0f56"
+  },
+  "posts/pages/2016-01-15-cinque-questioni-su-david-bowie.md": {
+    "2016-01-15-cinque-questioni-su-david-bowie.html": "7edba287"
+  },
+  "posts/pages/2016-07-15-brexit-come-perdere-contro-se-stessi.md": {
+    "2016-07-15-brexit-come-perdere-contro-se-stessi.html": "7aa9e28c"
+  },
+  "posts/pages/2014-10-27-halloween-dietro-le-quinte.md": {
+    "2014-10-27-halloween-dietro-le-quinte.html": "c8fd020f"
+  },
+  "posts/pages/2012-05-14-montale-natura-innocenza-linguaggio.md": {
+    "2012-05-14-montale-natura-innocenza-linguaggio.html": "a5a94445"
+  },
+  "posts/pages/2016-06-15-proposte-didattiche-per-una-scuola-meticcia.md": {
+    "2016-06-15-proposte-didattiche-per-una-scuola-meticcia.html": "4f9b86b3"
+  },
+  "posts/pages/2017-10-31-i-giornalisti-americani-e-il-giornalismo-fascista.md": {
+    "2017-10-31-i-giornalisti-americani-e-il-giornalismo-fascista.html": "31339969"
+  },
+  "posts/pages/2017-11-01-catalogna-2017.md": {
+    "2017-11-01-catalogna-2017.html": "d5bece9b"
+  },
+  "posts/pages/2016-04-04-omicidio-varani-nuove-identita-del-male.md": {
+    "2016-04-04-omicidio-varani-nuove-identita-del-male.html": "5d4f892d"
+  },
+  "posts/pages/2015-07-27-la-grecia-leuropa-e-i-conti-della-serva.md": {
+    "2015-07-27-la-grecia-leuropa-e-i-conti-della-serva.html": "691ba6c6"
+  },
+  "posts/pages/2016-07-02-il-disgusto-della-democrazia.md": {
+    "2016-07-02-il-disgusto-della-democrazia.html": "c9ab81a3"
+  },
+  "posts/pages/2016-04-06-il-cane-nella-casa-degli-europei.md": {
+    "2016-04-06-il-cane-nella-casa-degli-europei.html": "cfbbc09a"
+  },
+  "posts/pages/2017-05-10-francesco-permunian.md": {
+    "2017-05-10-francesco-permunian.html": "31d50e5c"
+  },
+  "posts/pages/2016-06-10-invano.md": {
+    "2016-06-10-invano.html": "cc76bbf9"
+  },
+  "posts/pages/2012-09-15-al-qaeda-network-fondamentalismo-islamico.md": {
+    "2012-09-15-al-qaeda-network-fondamentalismo-islamico.html": "069c3341"
+  },
+  "posts/pages/2015-03-28-siamo-morti-da-sempre.md": {
+    "2015-03-28-siamo-morti-da-sempre.html": "c5ddca24"
+  },
+  "posts/pages/2016-05-27-tutti-contro-il-ttip.md": {
+    "2016-05-27-tutti-contro-il-ttip.html": "4b86fd7f"
+  },
+  "posts/pages/2016-10-30-berlino-dopo-lunione.md": {
+    "2016-10-30-berlino-dopo-lunione.html": "f2f79797"
+  },
+  "posts/pages/2017-06-15-il-cuore-del-vuoto.md": {
+    "2017-06-15-il-cuore-del-vuoto.html": "a06479e6"
+  },
+  "posts/pages/2012-10-25-contingenze-paesaggio-grizzana-morandi-metropoli.md": {
+    "2012-10-25-contingenze-paesaggio-grizzana-morandi-metropoli.html": "676cee3e"
+  },
+  "posts/pages/2017-11-27-premonizioni-del-settantasette.md": {
+    "2017-11-27-premonizioni-del-settantasette.html": "17065db1"
+  },
+  "posts/pages/2016-05-05-spam-poetry.md": {
+    "2016-05-05-spam-poetry.html": "20db835b"
+  },
+  "posts/pages/2013-07-25-cavaliere-armi-amori-storia-italia.md": {
+    "2013-07-25-cavaliere-armi-amori-storia-italia.html": "6e252873"
+  },
+  "posts/pages/2012-08-09-comunicare-e-vivere.md": {
+    "2012-08-09-comunicare-e-vivere.html": "f44274a5"
+  },
+  "posts/pages/2016-09-12-sisma-italiana.md": {
+    "2016-09-12-sisma-italiana.html": "8fb3c3e4"
+  },
+  "posts/pages/2016-11-29-fidel-castro-eredita.md": {
+    "2016-11-29-fidel-castro-eredita.html": "f2ce36c5"
+  },
+  "posts/pages/2017-02-02-le-avventure-di-saro-e-giambologna.md": {
+    "2017-02-02-le-avventure-di-saro-e-giambologna.html": "a0a66bb0"
+  },
+  "posts/pages/2015-12-15-le-guerre-di-marcantonio-colonna-e-lo-statuto-di-frascati-del-1515.md": {
+    "2015-12-15-le-guerre-di-marcantonio-colonna-e-lo-statuto-di-frascati-del-1515.html": "abe3e677"
+  },
+  "posts/pages/2016-04-02-aaa-industria-filosofica-nel-salento.md": {
+    "2016-04-02-aaa-industria-filosofica-nel-salento.html": "fc3c71f9"
+  },
+  "posts/pages/2016-04-15-chi-paga-per-la-condivisione.md": {
+    "2016-04-15-chi-paga-per-la-condivisione.html": "e0583f20"
+  },
+  "posts/pages/2017-09-30-contro-i-vaccini-opinioni.md": {
+    "2017-09-30-contro-i-vaccini-opinioni.html": "f0d7403d"
+  },
+  "posts/pages/2016-10-11-il-continuo-ritorno-della-dama-bianca.md": {
+    "2016-10-11-il-continuo-ritorno-della-dama-bianca.html": "1df7e097"
+  },
+  "posts/pages/2014-12-24-il-premio-frascati-poesia-provincia.md": {
+    "2014-12-24-il-premio-frascati-poesia-provincia.html": "dc2f1b20"
+  },
+  "posts/pages/2013-02-27-conscientia-mea-ratzinger-e-noi.md": {
+    "2013-02-27-conscientia-mea-ratzinger-e-noi.html": "ab315915"
+  },
+  "posts/pages/2015-02-28-i-colori-del-noir.md": {
+    "2015-02-28-i-colori-del-noir.html": "82ff5c63"
+  },
+  "posts/pages/2015-10-31-fantasmi-a-berlino.md": {
+    "2015-10-31-fantasmi-a-berlino.html": "1877c95d"
+  },
+  "posts/pages/2016-02-25-variazioni-della-differenza-derrida-e-coleman.md": {
+    "2016-02-25-variazioni-della-differenza-derrida-e-coleman.html": "8864efdb"
+  },
+  "posts/pages/2014-09-29-il-tradire-degli-eventi.md": {
+    "2014-09-29-il-tradire-degli-eventi.html": "2f00e068"
+  },
+  "posts/pages/2012-05-10-possedimenti-memorie-tuscolo.md": {
+    "2012-05-10-possedimenti-memorie-tuscolo.html": "3fa672b8"
+  },
+  "posts/pages/2012-06-20-spiragli-sulleuropa-quattro-poesie.md": {
+    "2012-06-20-spiragli-sulleuropa-quattro-poesie.html": "47ed572b"
+  },
+  "posts/pages/2016-06-18-jeeg-robot-contro-i-kattivi.md": {
+    "2016-06-18-jeeg-robot-contro-i-kattivi.html": "3bea26ed"
+  },
+  "posts/pages/2016-06-27-philip-k-dick-il-filosofo-mascherato.md": {
+    "2016-06-27-philip-k-dick-il-filosofo-mascherato.html": "4d9a5a18"
+  },
+  "posts/pages/2016-02-02-lideologia-del-presente.md": {
+    "2016-02-02-lideologia-del-presente.html": "d17385ff"
+  },
+  "posts/pages/post-four.md": {
+    "post-four.html": "c11c1b40"
+  },
+  "posts/pages/2017-07-15-brindisi-mancati-berlino-metropolis-superman.md": {
+    "2017-07-15-brindisi-mancati-berlino-metropolis-superman.html": "bd8817a5"
+  },
+  "posts/pages/2012-10-09-soundcentral-come-divertirsi-a-kabul.md": {
+    "2012-10-09-soundcentral-come-divertirsi-a-kabul.html": "b7efce87"
+  },
+  "posts/pages/2016-07-27-nuova-chiesa-e-nuova-politica.md": {
+    "2016-07-27-nuova-chiesa-e-nuova-politica.html": "de0d602b"
+  },
+  "posts/pages/2014-02-24-virus.md": {
+    "2014-02-24-virus.html": "5357a2c7"
+  },
+  "posts/pages/2016-11-15-democrazia-critica-habermas.md": {
+    "2016-11-15-democrazia-critica-habermas.html": "2e6630e1"
+  },
+  "posts/pages/2016-06-27-sottoproletariato-cognitivo-italia.md": {
+    "2016-06-27-sottoproletariato-cognitivo-italia.html": "ca80756b"
+  },
+  "posts/pages/2012-07-24-batman-informazione-fumetti-stragi.md": {
+    "2012-07-24-batman-informazione-fumetti-stragi.html": "ea3f26f1"
+  },
+  "posts/pages/2017-02-23-dimettersi-da-frocio.md": {
+    "2017-02-23-dimettersi-da-frocio.html": "37dbd8be"
+  },
+  "posts/pages/2017-03-03-una-roma-senza-torri.md": {
+    "2017-03-03-una-roma-senza-torri.html": "d5c7089a"
+  },
+  "posts/pages/2014-06-30-popsophia-greci-presente.md": {
+    "2014-06-30-popsophia-greci-presente.html": "4f5c3b38"
+  },
+  "posts/pages/2017-01-06-nobel-dylan.md": {
+    "2017-01-06-nobel-dylan.html": "9c686631"
+  },
+  "posts/pages/2016-05-02-colonizzazione-dellimmaginario-e-controllo-sociale.md": {
+    "2016-05-02-colonizzazione-dellimmaginario-e-controllo-sociale.html": "4dcd4dc2"
+  },
+  "posts/pages/2016-06-01-manicomio-italia-un-quadro-clinico.md": {
+    "2016-06-01-manicomio-italia-un-quadro-clinico.html": "4a1dfc55"
+  },
+  "posts/pages/2017-07-30-i-pornografici-profitti-del-capitale.md": {
+    "2017-07-30-i-pornografici-profitti-del-capitale.html": "ad06edd5"
+  },
+  "posts/pages/2012-05-08-zone-di-transito.md": {
+    "2012-05-08-zone-di-transito.html": "7436d029"
+  },
+  "posts/pages/2013-03-21-poesie-per-un-giorno-di-primavera.md": {
+    "2013-03-21-poesie-per-un-giorno-di-primavera.html": "da245b8e"
+  },
+  "posts/pages/2015-05-06-montale-novecento.md": {
+    "2015-05-06-montale-novecento.html": "608bf875"
+  },
+  "posts/pages/2013-10-21-luomo-e-la-gallina.md": {
+    "2013-10-21-luomo-e-la-gallina.html": "d3e0225a"
+  },
+  "posts/pages/2017-10-19-leonardo-da-vinci-historia-di-una-sbronza.md": {
+    "2017-10-19-leonardo-da-vinci-historia-di-una-sbronza.html": "6ddc8cdd"
+  },
+  "posts/pages/2013-05-27-la-clonazione.md": {
+    "2013-05-27-la-clonazione.html": "9e7529dd"
+  },
+  "posts/pages/2017-03-16-il-settimo-uomo-nuove-rivelazioni-sul-caso-moro.md": {
+    "2017-03-16-il-settimo-uomo-nuove-rivelazioni-sul-caso-moro.html": "c145fc75"
+  },
+  "posts/pages/2014-08-30-padre-padrino.md": {
+    "2014-08-30-padre-padrino.html": "910e4345"
+  },
+  "posts/pages/2016-03-03-gianni-celati-e-la-fuga-dalla-letteratura.md": {
+    "2016-03-03-gianni-celati-e-la-fuga-dalla-letteratura.html": "d9c71085"
+  },
+  "posts/pages/2014-07-31-la-palude-letteraria.md": {
+    "2014-07-31-la-palude-letteraria.html": "947cf683"
+  },
+  "posts/pages/2017-10-09-lotta-armata-giustizia-pop-varia-letteratura.md": {
+    "2017-10-09-lotta-armata-giustizia-pop-varia-letteratura.html": "0bd33d40"
+  },
+  "posts/pages/2013-02-09-dentro-le-foibe.md": {
+    "2013-02-09-dentro-le-foibe.html": "e318f73c"
+  },
+  "posts/pages/2015-09-25-istanbul-diario-di-bordo.md": {
+    "2015-09-25-istanbul-diario-di-bordo.html": "5078dd86"
+  },
+  "posts/pages/2016-08-11-compiti-per-le-vacanze.md": {
+    "2016-08-11-compiti-per-le-vacanze.html": "053d7717"
+  },
+  "posts/pages/post-five.md": {
+    "post-five.html": "3cf25dc6"
+  },
+  "posts/pages/2016-09-06-il-burkini-e-lo-scandalo-del-coprirsi.md": {
+    "2016-09-06-il-burkini-e-lo-scandalo-del-coprirsi.html": "850755a3"
+  },
+  "posts/pages/2017-11-07-piotr-merkurj-la-pittura-della-luce.md": {
+    "2017-11-07-piotr-merkurj-la-pittura-della-luce.html": "e4e78804"
+  },
+  "posts/pages/2013-04-02-i-tre-pontificati-di-benedetto-ix.md": {
+    "2013-04-02-i-tre-pontificati-di-benedetto-ix.html": "5f5e06b2"
+  },
+  "posts/pages/2014-12-31-le-parole-del-sesso-taciuto.md": {
+    "2014-12-31-le-parole-del-sesso-taciuto.html": "4db25e46"
+  },
+  "posts/pages/2016-06-27-gli-spacciatori-di-felicita.md": {
+    "2016-06-27-gli-spacciatori-di-felicita.html": "d6a7b275"
+  },
+  "posts/pages/2016-02-25-unioni-incivili-e-strutture-parentali-dopo-levi-strauss.md": {
+    "2016-02-25-unioni-incivili-e-strutture-parentali-dopo-levi-strauss.html": "8fc1391f"
+  },
+  "posts/pages/2017-12-04-nature-spirituali-fraccacreta-poesia.md": {
+    "2017-12-04-nature-spirituali-fraccacreta-poesia.html": "21734b43"
+  },
+  "posts/pages/2016-08-09-cose-turche.md": {
+    "2016-08-09-cose-turche.html": "ea576b6e"
+  },
+  "posts/pages/2016-09-07-storia-bombe-frascati-distruzione-tuscolo.md": {
+    "2016-09-07-storia-bombe-frascati-distruzione-tuscolo.html": "c19f29b1"
+  },
+  "posts/pages/2016-04-30-dark-reign-politica-e-religione-tra-i-fumetti-e-la-gnosi.md": {
+    "2016-04-30-dark-reign-politica-e-religione-tra-i-fumetti-e-la-gnosi.html": "53c0cfc6"
+  },
+  "posts/pages/2012-09-11-undici-volte-11-settembre.md": {
+    "2012-09-11-undici-volte-11-settembre.html": "2e79d91e"
+  },
+  "posts/pages/2017-03-10-trump-no-global-contro-il-mondo.md": {
+    "2017-03-10-trump-no-global-contro-il-mondo.html": "3dc7b3d1"
+  },
+  "posts/pages/2016-02-19-macht-und-denken-slam-di-filosofia-a-lipsia.md": {
+    "2016-02-19-macht-und-denken-slam-di-filosofia-a-lipsia.html": "3cd5ccf0"
+  },
+  "posts/pages/2017-09-21-montale-kavafis-cristiano-luciani.md": {
+    "2017-09-21-montale-kavafis-cristiano-luciani.html": "5241610d"
+  },
+  "posts/pages/2014-04-29-strade-di-fener.md": {
+    "2014-04-29-strade-di-fener.html": "cb7d66ef"
+  },
+  "posts/pages/2017-06-27-frascati-citta-mai-vista.md": {
+    "2017-06-27-frascati-citta-mai-vista.html": "ccddbb4b"
+  },
+  "posts/pages/2016-07-23-il-giorno-in-cui-combinammo-qualcosa-di-buono.md": {
+    "2016-07-23-il-giorno-in-cui-combinammo-qualcosa-di-buono.html": "bd509ee7"
+  },
+  "posts/pages/2012-05-16-monopoli-risiko-guerre-globali-crisi-finanziarie.md": {
+    "2012-05-16-monopoli-risiko-guerre-globali-crisi-finanziarie.html": "ac9c8d58"
+  },
+  "posts/pages/2017-04-18-miles-davis-e-ferruccio-busoni-lontane-risonanze.md": {
+    "2017-04-18-miles-davis-e-ferruccio-busoni-lontane-risonanze.html": "c77b498d"
+  },
+  "posts/pages/2016-06-26-bisogna-saper-vincere.md": {
+    "2016-06-26-bisogna-saper-vincere.html": "e355ce15"
+  },
+  "posts/pages/2012-06-06-musica-e-contemporanei.md": {
+    "2012-06-06-musica-e-contemporanei.html": "fe7a4c8a"
+  },
+  "posts/pages/2012-06-01-2012-apocalissi-su-misura.md": {
+    "2012-06-01-2012-apocalissi-su-misura.html": "b82879c9"
+  },
+  "posts/pages/2016-06-13-mein-kampf-per-tutti.md": {
+    "2016-06-13-mein-kampf-per-tutti.html": "c45f856f"
+  },
+  "posts/pages/2016-02-20-la-luce-il-paesaggio-e-il-confine-in-francesco-biamonti.md": {
+    "2016-02-20-la-luce-il-paesaggio-e-il-confine-in-francesco-biamonti.html": "ff826d0b"
+  },
+  "posts/pages/2012-07-25-litalia-ha-vinto.md": {
+    "2012-07-25-litalia-ha-vinto.html": "fe10269e"
+  },
+  "posts/pages/2012-05-09-ballate-e-danze-dal-basso-impero.md": {
+    "2012-05-09-ballate-e-danze-dal-basso-impero.html": "ff19723a"
+  },
+  "posts/pages/2017-08-15-italia-terra-di-transito-martino.md": {
+    "2017-08-15-italia-terra-di-transito-martino.html": "aa295e4b"
+  },
+  "posts/pages/2015-08-28-cocktail-bulgaro.md": {
+    "2015-08-28-cocktail-bulgaro.html": "161762f2"
+  },
+  "posts/pages/2016-02-23-il-codice-del-mondo.md": {
+    "2016-02-23-il-codice-del-mondo.html": "e7031937"
+  },
+  "posts/pages/2016-07-05-storie-dalla-jihad.md": {
+    "2016-07-05-storie-dalla-jihad.html": "e4e3e89a"
+  },
+  "posts/pages/2013-02-14-declinazioni-dellautore.md": {
+    "2013-02-14-declinazioni-dellautore.html": "ba5d96c7"
+  },
+  "posts/pages/2016-12-31-momenti-della-fine.md": {
+    "2016-12-31-momenti-della-fine.html": "8ad3d019"
+  },
+  "posts/pages/2012-05-22-facebook-borsa-relazioni.md": {
+    "2012-05-22-facebook-borsa-relazioni.html": "dc2d9c3d"
+  },
+  "posts/pages/2016-03-01-orizzonti-editoriali-mondo-digitale.md": {
+    "2016-03-01-orizzonti-editoriali-mondo-digitale.html": "0836ef51"
+  },
+  "posts/pages/2016-04-05-larte-egocentrica-mondiale-sta-uccidendo-larte.md": {
+    "2016-04-05-larte-egocentrica-mondiale-sta-uccidendo-larte.html": "d9334903"
+  },
+  "posts/pages/2017-05-05-gerardo-marotta-in-tre-atti.md": {
+    "2017-05-05-gerardo-marotta-in-tre-atti.html": "5044486b"
+  },
+  "posts/pages/2017-03-23-aspetti-etici-del-testamento-biologico.md": {
+    "2017-03-23-aspetti-etici-del-testamento-biologico.html": "3dfd7583"
+  },
+  "posts/pages/2013-09-20-siria-guerra-informazione.md": {
+    "2013-09-20-siria-guerra-informazione.html": "4fe10091"
+  },
+  "posts/pages/2017-11-13-colpo-di-stato-malaparte.md": {
+    "2017-11-13-colpo-di-stato-malaparte.html": "f49a0d6d"
+  }
+}
