@@ -2,9 +2,7 @@
 title: Frammenti di Tomàs
 date: '2021-12-20'
 author: Andrea Appetito
-excerpt: >-
-  «Speravo che si aprisse sotto di me un baratro, un inferno in cui nascondermi e da cui rinascere dopo molte generazioni.»
-image:  /images/2017/12/Tomas_particolare.jpg
+image: /images/2017/12/Tomas_particolare.jpg
 categories:
   - letteratura
   - narrazioni
