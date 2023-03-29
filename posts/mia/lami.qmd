@@ -2,8 +2,8 @@
 title: Mia, poesie
 date: '2023-03-29'
 # se non si mette un immagine qui viene usata la prima immagine dell articolo
-# nell elenco degli scritti
-#image: 
+# nell'elenco degli scritti
+#image: muschietto.png
 author:
  - Maria Lami
  - Matteo Pedani
@@ -11,22 +11,50 @@ categories:
  - poesia
 tags:
  - mia
+about:
+# i vari nomi dei template sono:
+# `jolla`, `trestles`, `solana`, `marquee`, `broadside`
+  template: solana
 # per non far visualizzare l'articolo 
-#draft: true
+draft: true
 ---
 
-::: colums
-::: {.column width="17%"}
-![](muschietto.png)
-:::
-::: {.column width="80%"}
-Mia é lo pseudonimo che aveva usato come firma alle sue ultime poesie. Lei era femminista, insegnante di disegno, pittrice, ceramista, operaia in una fabbrica di ceramica, artista, madre.
-:::
-:::
-
-Negli ultimi anni, ha scritto, alcune poesie, perché sentiva che voleva comunicare, voleva esprimersi. Fino ad allora le mani avevano guidato, matite e pennelli, con il passare del tempo si rendeva conto che non poteva più controllare i suoi tratti. Stava diventando cieca. Queste sono alcune delle sue poesie, scritte in maniera schietta, visive e senza artifici, rispecchiano gli ultimi suoi anni, ed il suo immaginario più visivo che verbale, sonoro.
+Mia é lo pseudonimo usato come firma alle sue ultime poesie. Lei era femminista, insegnante di disegno, pittrice, ceramista, operaia in una fabbrica di ceramica, artista, madre. Negli ultimi anni, ha scritto, alcune poesie, perché sentiva che voleva comunicare, voleva esprimersi. Fino ad allora le mani avevano guidato, matite e pennelli, con il passare del tempo si rendeva conto che non poteva più controllare i suoi tratti. Stava diventando cieca. Queste sono alcune delle sue poesie, scritte in maniera schietta, visive e senza artifici, rispecchiano gli ultimi suoi anni, ed il suo immaginario più visivo che verbale, sonoro.
 
 *Matteo Pedani*
+
+### Io vorrei
+
+Una cuccia, una tana una culla\
+e anche un nido,\
+per ogni creatura che ha da nascere\
+che sia stata preparata\
+con un sorriso.\
+Io vorrei\
+che il mondo fosse in fiore\
+e l'universo in pace, musica, morbido sole.\
+Non pene o pianti, non scosse\
+o fuoco o baruffe\
+se non per giuoco.\
+E quando l'ora scade,\
+che sorella morte,\
+alla porta si accosti\
+dolcemente.\
+E così con mano leggera prema\
+e s involi con la creatura.\
+Così io vorrei.\
+
+### Dedicata a Pontremoli
+
+Ripide le quattro sponde,\
+scivolano dal monte\
+con le tue vecchie pietre,\
+ponti, castelli, palazzi costruisci.\
+Ho bella del Piagnaro,\
+portano le tue acque\
+libri di pietra e di sapere,\
+al mare, al mondo.
+
 
 ### Sognando Giugno
 
@@ -59,6 +87,18 @@ il roseo fiore di timo.\
 :::
 :::
 
+### a Serena
+
+Lunghe dita come farfalle leggere\
+azzurri, indaco e colori infiniti\
+pongono;\
+a volte come memoria\
+o sogni,forti di cultura antica.\
+Moderna Artemisia,\
+senza il suo tormento, ma\
+serena consapevolezza ti pervade 
+
+
 ### Il Cane
 
 ::: columns
@@ -77,8 +117,6 @@ Allegria, amore tutto così esprimono i cani.\
 A volte al cane tagliano anche la coda\
 gli uomini.\
 Come si può esprimere il cane?\
-
-*novembre 2008*
 :::
 
 ::: {.column width="5%"}
@@ -90,25 +128,8 @@ Come si può esprimere il cane?\
 :::
 :::
 
-### Io vorrei
+***Mia***
 
-Una cuccia, una tana una culla\
-e anche un nido,\
-per ogni creatura che ha da nascere\
-che sia stata preparata\
-con un sorriso.\
-Io vorrei\
-che il mondo fosse in fiore\
-e l'universo in pace, musica, morbido sole.\
-Non pene o pianti, non scosse\
-o fuoco o baruffe\
-se non per giuoco.\
-E quando l'ora scade,\
-che sorella morte,\
-alla porta si accosti\
-dolcemente.\
-E così con mano leggera prema\
-e s involi con la creatura.\
-Così io vorrei.\
+*novembre 2008*
 
-*Mia*
+![](muschietto.png){fig-alt="muschietto" fig-align="center"}
