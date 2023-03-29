@@ -11,6 +11,8 @@ categories:
  - poesia
 tags:
  - mia
+# per non far visualizzare l'articolo 
+#draft: true
 ---
 
 ::: colums
