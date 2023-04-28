@@ -1,13 +1,15 @@
 project:
   type: website
   output-dir: docs
-
+  
 website:
 #  title: "scritture"
 
   navbar:
     logo: "/images/scritture_logo.png"
-    left: 
+    left:
+      - text: diario
+        href: /diario.html#category=Diario
       - text: Grandtour Book Wine Bar
         href: https://grandtour.shop/
       - text: Escamontage
@@ -29,6 +31,7 @@ format:
     theme: united
     css: styles.css
     toc: true
+    bootstrap: 5
 
 editor: visual
 lang: it

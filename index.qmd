@@ -11,4 +11,33 @@ page-layout: full
 title-block-banner: false
 ---
 
-# 
+::: grid 
+::: {.g-col-12}
+![](images/scritture_logo.png){fig-align="center"}
+:::
+
+::: {.g-col-12 .g-col-md-3}
+####   Lotta armata, giustizia pop, varia letteratura
+[![](images/2017/10/Battisti_noir-1.jpg){fig-align="left"}](/posts/pages/2017-10-09-lotta-armata-giustizia-pop-varia-letteratura.html)
+
+####   Piotr Merkurj: la pittura della luce
+[![](images/2017/11/Vetrata-Palma-di-Montechiaro-AG.jpg){fig-align="left"}](/posts/pages/2017-11-07-piotr-merkurj-la-pittura-della-luce.html)
+:::
+
+::: {.g-col-12 .g-col-md-6}
+## Gerusalemme: guida possibile alla terra negata
+[![Dichiarazioni americane e conseguenze mondiali. Storia di una città, dei suoi popoli e dei suoi monumenti. Parcellizzazione dei Luoghi Sacri e parzialità dei poteri umani.](/images/2017/12/Old-City-of-Jerusalem-Encyclopedia-Britannica-1997.jpg){fig-align="left"}](/posts/pages/post-five.html)
+:::
+
+::: {.g-col-12 .g-col-md-3}
+####   Montale e Kavàfis nella lettura di Cristiano Luciani
+[![](images/2017/12/panni_stesi_sull_egeo.jpg){fig-align="left"}](/pages/2017-09-21-montale-kavafis-cristiano-luciani.html)
+
+####   Brindisi mancati a Berlino
+[![Le origini Superman, la storia di Metropolis, l’amore perduto di Adolf Hitler. Una separazione sullo scenario di una città separata.](images/2017/10/brindisi_mancati.jpg){fig-align="left"}](/posts/pages/2017-07-15-brindisi-mancati-berlino-metropolis-superman.html)
+:::
+
+:::
+
+---
+
