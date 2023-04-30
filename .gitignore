@@ -31,5 +31,5 @@ vignettes/*.pdf
 /.quarto/
 # nome del sito e non usare jekyll
 docs/.nojekyll
-docs/CNAME
+#docs/CNAME
 /.quarto/
