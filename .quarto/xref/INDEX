@@ -928,5 +928,17 @@
   },
   "posts/pages/2017-11-13-colpo-di-stato-malaparte.md": {
     "2017-11-13-colpo-di-stato-malaparte.html": "f49a0d6d"
+  },
+  "posts/prova/prova.qmd": {
+    "prova.html": "1aebbcf7"
+  },
+  "posts/mia/lami.qmd": {
+    "lami.html": "52ccbbcb"
+  },
+  "diario.qmd": {
+    "diario.html": "b08e0738"
+  },
+  "fonts.qmd": {
+    "fonts.tex": "a0ca4456"
   }
 }

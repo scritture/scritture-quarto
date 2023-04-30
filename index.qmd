@@ -39,7 +39,7 @@ title-block-banner: false
 
 #### Brindisi mancati a Berlino
 
-[![Le origini Superman, la storia di Metropolis, l\'amore perduto di Adolf Hitler. Una separazione sullo scenario di una città separata.](images/2017/10/brindisi_mancati.jpg){fig-align="left"}](/posts/pages/2017-07-15-brindisi-mancati-berlino-metropolis-superman.html)
+[![Le origini Superman, la storia di Metropolis, l'amore perduto di Adolf Hitler. Una separazione sullo scenario di una città separata.](images/2017/10/brindisi_mancati.jpg){fig-align="left"}](/posts/pages/2017-07-15-brindisi-mancati-berlino-metropolis-superman.html)
 :::
 :::
 

@@ -36,4 +36,11 @@ format:
 editor: visual
 lang: it
 
+language:
+  en:
+    title-block-author-single: "Author"
+    listing-page-field-author: "Author"
+  it:
+    title-block-author-single: "di"
+    listing-page-field-author: "di"
 

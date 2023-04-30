@@ -1,0 +1,26 @@
+---
+title: "Fonts in Quarto"
+format: pdf
+pdf-engine: xelatex
+mainfont: Lato
+monofont: Pacifico
+---
+
+
+## Fonts
+
+- mainfont: For LaTeX output, the main font
+family for use with xelatex or lualatex. 
+Takes the name of any system font. 
+
+- monofont: For LaTeX output, the monospace 
+font family for use with xelatex or lualatex:
+take the name of any system font.
+
+
+## Fonts available in system
+
+```{r}
+# install.packages("systemfonts")
+systemfonts::system_fonts()
+```
