@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it" xml:lang="it"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Renato Curcio">
+
+<title>Profilazioni predittive e comportamenti elettorali</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "Nessun risultato",
+    "search-matching-documents-text": "documenti trovati",
+    "search-copy-link-title": "Copiare il link nella ricerca",
+    "search-hide-matches-text": "Nascondere i risultati aggiuntivi",
+    "search-more-match-text": "ci sono altri risultati in questo documento",
+    "search-more-matches-text": "ulteriori risultati in questo documento",
+    "search-clear-button-title": "Pulire",
+    "search-detached-cancel-button-title": "Cancellare",
+    "search-submit-button-title": "Inviare"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/scritture_logo.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../diario.html#category=Diario">
+ <span class="menu-text">diario</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://grandtour.shop/">
+ <span class="menu-text">Grandtour Book Wine Bar</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://escamontage.wordpress.com/">
+ <span class="menu-text">Escamontage</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html">
+ <span class="menu-text">contatti</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/groups/4880518/"><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/tweet_scritture"><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.facebook.com/search/scritturemagazine"><i class="bi bi-facebook" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:grandtour.frascati@gmail.com"><i class="bi bi-envelope" role="img" aria-label="Email">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Profilazioni predittive e comportamenti elettorali</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">comunicazione</div>
+                <div class="quarto-category">economia</div>
+                <div class="quarto-category">politica</div>
+                <div class="quarto-category">Rivista</div>
+                <div class="quarto-category">società</div>
+              </div>
+                  </div>
+  </div>
+  <div class="quarto-title-meta">
+      <div>
+      <div class="quarto-title-meta-heading">di</div>
+      <div class="quarto-title-meta-contents">
+               <p>Renato Curcio </p>
+            </div>
+    </div>
+      <div>
+      <div class="quarto-title-meta-heading">Data di Pubblicazione</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">9 gennaio 2018</p>
+      </div>
+    </div>
+    </div>
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<div class="quarto-about-solana column-body">
+  <div class="about-entity">
+    <div class="entity-contents">
+       
+      <div class="about-contents"><main class="content quarto-banner-title-block" id="quarto-document-content">
+<p>Denunciare una realtà e svelarne il nome, piuttosto che assecondare luoghi comuni, significa iniziare a trasformarla. Svelare l’ideologia implicita della digitalizzazione, e demistificare le illusioni di progresso sociale e di smisurata libertà di Internet, può contribuire a tutelare e proteggere le nostre autentiche libertà, e anche a fare buon uso della Rete. Il sociologo Renato Curcio sulle trasformazioni indotte dal digitale ha pubblicato L’impero virtuale (2015), L’egemonia digitale (2016), La società artificiale (2017). Il primo libro descrive come l’egemonia di aziende che gestiscono i dati legati all’utilizzo dei dispositivi digitali disegnino mappe concettuali di desideri e necessità della popolazione mondiale. Il secondo si concentra sulle ricadute di Internet nelle condizioni concrete del mondo del lavoro, e chiude denunciando le sue patologie: autismo digitale, obesità tecnologica, ethos della quantità, smarrimento dei limiti. Il terzo, sempre affiancando questioni strutturali e testimonianze vissute, si apre focalizzando lo sfruttamento digitale delle relazioni umane, laddove sono gli strumenti tecnologici che, seguendo uno schema capitalistico, usano come loro protesi persone ridotte a fonti di dati.</p>
+<p>Tanti sogni diventano incubi. Così, oggi l privato è stato realmente riassunto nel pubblico, ma sono i privati ad esercitare il monopolio tecnologico che gestisce gli strumenti della comunicazione. Dove ormai gli stati sono privi di corpo e cuore e la finanza internazionale gioca d’azzardo su ogni piazza, alla virtualizzazione dell’economia segue quella della socialità. E se da tempo che con gli slogan del sessantotto si vendono automobili, un indice del cambiamento intercorso da altre stagioni è proprio nella diversità che hanno il pubblico nel suo senso ‘politico’ e in quello ‘social’. Infatti, oggi sui social la violazione della privacy è volontaria, sembra normale fare spettacolo e mercatino di sé stessi, sorvegliandosi con più accanimento di quello delle spie di una volta, eppure più osceni di qualche pornostar. Miliardi di ingenui considerano la fornitura di dati come se fosse l’affermazione della propria libertà personale, ma ormai ad opporsi esplicitamente alle aberrazioni della Rete ci sono anche guru del web con notevoli ruoli di progettazione e dirigenza, tra cui Sean Parker (Napster, Fb), Evan Williams (Twitter), l’informatico Jerry Kaplan e lo scienziato Stephen Hawking. L’arroganza della falsa concretezza che confonde natura e cultura è stata denunciata da Raffaele Coniglione (Università di Catania), mentre la preponderanza del falso e di quelle che sono ormai note come fake news è stata analizzate da Katharine Viener (The Guardian). L’indagine sulle specifiche forme di oppressione del capitalismo digitale e dei guasti cognitivi che comportano è necessaria per cogliere il nucleo della nostra condizione: ovviamente, a ciò deve accompagnarsi l’alimentare gli usi migliori delle nuove tecnologie, quali le biblioteche online, e anche quella di siti che non prescindono da contenuti, documenti, esperienze, nei quali si colloca anche questo. A tal fine, utilizzare le piattaforme social significa tentare di farne dei Cavalli di Troia, anche se pure loro rischiano purtroppo di venir minimizzati quali cavallucci a dondolo.</p>
+<p>Quanto Curcio chiama colonizzazione dell’immaginario, che consiste nella depredazione le materie prime del nostro vivere, procede attraverso «l’iperconnessione, la schiavitù mentale, l’app-dipendenza, l’alienazione della memoria, il furto dell’oblio, e il deterioramento della sensibilità relazionale» (L’impero virtuale, p.&nbsp;10). A ciò non è possibile reagire rifugiandosi in un banale antitecnologismo. Infatti, la tecnica è espressione di una struttura ontologica e forma mentis che sviluppa sempre nuovi organi e nuove visioni del mondo: da sempre gli strumenti attrezzano le nostre attività e plasmano le nostre capacità (La società artificiale, p.&nbsp;7). La tecnica non è mai stata neutrale, e ha da sempre priorità indirizzate da sviluppo economico e interessi politici; inoltre, la relazione tra tecnologia e immaginario è sempre esistita, come segnalato da Postman, per cui ogni strumento porti con sé delle predisposizioni che indirizzano gesti e risultati (L’egemonia digitale, p.&nbsp;9). Il problema nasce quindi nella considerazione di quale struttura economica e forma politica operino, e di quale sia la sovradeterminazione costituita dalle oligarchie produttrici di strumenti. Strumenti basati dichiaratamente su tecnologie chiuse, brevettate, proprietarie, che mirano a stabilire l’interpretazione generale del mondo e della vita attraverso la sua costante monitorazione, inquadrano queste nel capitalismo e nelle dinamiche di classe.</p>
+<p>Il gioco della connessione globale sembra condurre al dissolvimento definitivo. Non c’è né centro né luogo, ma una dimensione pervasiva e sfuggente che, nonostante la pretesa trasparenza, è piuttosto opaca. Ad una “società cognitiva” ancora appena imbastita si sostituisce così un mondo inibito da ogni giudizio, capace solo di reazioni semplificate del tipo “mi piace”. Infatti, nel social business le relazioni non soltanto costituiscono parte cospicua del capitale sociale: sono effettivamente diventate una macchina per fare soldi. Tale omologazione dei rapporti consente allo svuotamento di significati tipico della comunicazione di mantenere il proprio legame con il capitale tradizionale favorendo un controllo biopolitico inedito che coinvolge salute e relazioni, gusti e capricci. Questa società deve quindi tenere conto di cambiamenti e permanenze, nei quali opera la «distinzione tra legami sociali e connessioni» (L’impero virtuale, p.&nbsp;62), che inizia dove le relazioni sono mediate da dispositivi e i legami interumani vengono sostituiti da connessioni indirette e artificiali. Una discontinuità netta sussiste tra due ordini di realtà. C’è un ordine, generato dai processi di esperienza personale e relazione sociale finora conosciuti, regolato da elementi corporei, intellettivi e di senso. Invece, un altro ordine, connaturato alle nuove prospettiva dell’intermediazione digitale, è determinato da dati sensoriali ridotti a pura quantità. In quest’ultimo ordine di realtà noi svolgiamo un doppio ruolo, ed è questo ad evidenziare una continuità di lungo periodo. Infatti, dove da una parte chiediamo e riceviamo servizi (tipo spedire una email), e dall’altra ne produciamo una remunerazione di valore incommensurabilmente superiore in dati e metadati commerciabili (non a nostro favore), siamo artefici di uno scambio ineguale che produce plusvalore. A questo livello strutturale, i meccanismi della società artificiale rivelano piena continuità con il rigido determinismo alla base dei processi industriali. Sfruttamento, alienazione ed esclusione, come sempre, sono i suoi dazi.</p>
+<p>I dati personali generosamente offerti dagli utenti vengono usati dalle aziende per fare profitto e gli strumenti di questo sfruttamento si moltiplicano tra le nostre mani nei dispositivi attraverso cui desideriamo un desiderio molto meno esauribile di noi. Questo peraltro permette il diffondersi di un narcisismo e di una chiusura per le quale ogni emancipazione sembra piuttosto lontana, mentre sono vistose le regressioni ad una forma di razionalità procedurale nonché l’estendersi della razionalità produttiva. Si può dire che tutto questo possa funzionare soltanto a condizione che ognuno di noi si impegni in tal senso: e infatti, funziona proprio perché nessuno può fare a meno dei propri dispositivi. Si può obiettare che autentica responsabilità e sincera partecipazione possano fungere da antidoti: tuttavia, questi sembrano piuttosto lontani dalle abitudini più diffuse. Inoltre, smanettare un dispositivo per mero cazzeggio, come molti sembrano obbligarsi a fare, è diverso dall’indossarlo come strumento di monitorizzazione della vita lavorativa, come per molti è realmente obbligatorio. Sembra però che le linee generali si impongano su tutti indiscriminatamente. Si documenta e si archivia di continuo ogni cosa, ma senza troppo interesse. Tutto è schiacciato sul presente, ma nessuno ricorda o progetta nulla. Un flusso di Big data spesso insensati cresce esponenzialmente, superando in quantità i libri dell’umana sapienza. La quantità di dati prodotti nell’ultimo anno è uguale a quanto realizzato in tutto la storia precedente: sembra evidente che l’uguaglianza qui segni una sproporzione.</p>
+<p>Il profiling, la profilazione, organizza le vite di ognuno predicendo che, se oggi hai comprato X, domani potresti comprare X. Al’interno della profilazione trova argomento anche il tema della sorveglianza: per quanto la Rete, o chi per lei, insista nel partire dall’idea che non c’è nessuna sorveglianza, ognuno di noi è soggetto a controllo semplicemente perché esiste e la sua stessa esistenza lo rende potenzialmente criminale. La sorveglianza di oggi non è funzionale ad un progetto ideologico ma orienta direttamente consumi e comportamenti, e le delazioni di cui si avvale sono nelle forme più elementari quelle quelle dell’immiserimento dell’esperienza e dei contenuti implicite nella comunicazione. Questa nuova sorveglianza è opposta a quella del Panottico di Bentham, nella quale il sorvegliatore non era visibile e i sorvegliati facevano attenzione a come comportarsi; adesso il sorvegliato crede di non esserlo e fornisce volontariamente ogni informazione sul suo conto. Anche la ribellione populista, di cui offrono esempi lampanti fenomeni quali Trump e Grillo, che s’impunta su ramoscelli per non vedere foreste, è strutturalmente impotente laddove la gestione dell’elettorato è compiuta attraverso i Big data e profilazioni che tendono, in modi peggio che demagogici, a catturare il consenso ed essere sempre dalla sua parte prima ancora del voto. Alle implicazioni delle profilazioni e alle loro applicazioni nella logica elettorale Renato Curcio dedica pagine decisive.</p>
+<ol type="1">
+<li>Le profilazioni predittive</li>
+</ol>
+<p>Anticipare eventi e prevedere comportamenti futuri: questo è il miraggio delle grandi piattaforme che fanno, a man bassa, incetta di dati. Mettere le mani su un bottino che, esse pensano, potrebbe consentire di “leggere il futuro”. Il sogni di chi ambisce a esercitare un dominio, pur col passare dei secoli, non cambia. In ciò i possessori delle tecnologie digitali si dimostrano pateticamente simili ai loro predecessori.</p>
+<p>L’ambizione predittiva, anticipatoria, tuttavia, spostando il baricentro della vita sociale in un futuro intessuto con percentuali di probabilità, finisce col riempirlo di fantasmi. Sono i fantasmi del “cosa e quando acquisteremo”, “come ci comporteremo”, “di cosa ci ammaleremo”. Ombre immaginarie che le pubblicità aziendali e le promozioni istituzionali proiettano sul nostro quotidiano per indurci a pratiche suggestionate e impaurite dalla loro pressante incombenza.</p>
+<p>«Mercoledì scorso nella mia scuola c’è stato un mini convegno sui pericoli del web a cui hanno partecipato tutte le classi prime e seconde. È stato molto interessante. Sono intervenuti operatori del SerT, un maresciallo dei carabinieri e una responsabile della selezione del personale. Quest’ultima in particolare ha detto che in Arica vi sono enti che quando una dotta cerca un lavoratore offrono un servizio di profilazione del candidato. Questi enti scandagliano il web alla ricerca di informazioni sul candidato fino a quindici anni addietro. Non si limitano a studiare quanto postato dal candidato stesso, ma anche quanto gli altri dicono di lui. Se è relativamente facile controllare quello che tu di te stesso riporti sul web, come puoi controllare quello che gli altri dicono di te? Una volta, ha detto la responsabile del personale, quando si volevano raccogliere informazioni su un candidato si andava dal prete, alla stazione dei carabinieri. Oggi non si fa più, si attinge a quanto il web racconta di te. Oltre a un io virtuale abbiamo anche un es virtuale. Trovo la cosa alquanto preoccupante, comunque singolare, capace di trasformare profondamente le relazioni interpersonali. Io per esempio, quando tratto con gli studenti, tengo sempre presente il problema di quanto loro di me potrebbero riversare sul web, si tratta di una trasformazione relazionare sottile ma profondissima. Tutto quanto riversato sul web è virtualmente ‘per sempre’, e non abbiamo il diritto all’oblio, non è ancora sancito».</p>
+<p>Tornando agli algoritmi predittivi possiamo allora dire che, sulla base dei dati rastrellati, essi s’industriano a costruire linee di comportamento “probabili” e destini canalizzati. È il compito per cui sono stati progettati, ma questo significa anche che essi si prendono la libertà di cucirci addosso un insieme di proiezioni allo stesso tempo irreali e assorbenti. Ritroviamo l’idea forte che fa da loro guida in quest’ambigua e insidiosa domanda: se in un prossimo futuro è “altamente probabile” che qualcuno possa avere un certo comportamento – di violazione delle leggi, di acquisto o altro ancora – non è forse opportuno anticiparlo? Si potrebbero facilitare i suoi acquisti e la realizzazione dei suoi desideri. E perché no, si potrebbe anche scongiurare qualche crimine e perfino una rivoluzione.</p>
+<p>Queste idee appaiono oggi assai meno fantascientifiche di quando Philip Dick le propose in un romanzo e Steve Spielberg le trasformò in un film di successo. [1] Anche docenti come Alex Pentland del prestigioso Massachusset Institute of Technology aspirano infatti a entrare in possesso di quella sorta di «fuoco di Prometeo» che sarebbe «la capacità di cogliere gli inizi delle rivoluzione politiche, di predirli, finanche controllarli». [2] Come vedremo, esse sono ormi il filo conduttore di tutte le strategie digitali di cattura.</p>
+<p>Ma al di là del loro successo, qualche domanda seria – lasciando qui da parte l’eterno sogno del capitale di stroncare sul nascere chiunque pensi di metterlo in discussione – ce la dobbiamo pur fare perché l’intenzione di anticipare coattivamente un’attività umana individuale non ancora compiuta e soltanto “probabile” o per meglio “ritenuta probabile” da un algoritmo, colpisce al cuore il principio stesso della responsabilità personale e, con esso, ogni possibile idea di libertà sociale.</p>
+<p>Oltretutto essa si fonda su argomenti indimostrabili per più di una evidente ragione. In primo luogo perché ciò che chiamiamo “probabilità” non è altro che una faccenda di percentuali non verificabili nel presente e molto spesso smentite dal futuro. Non è dunque un dato di realtà. Non lo è inoltre perché il possibile è infinitamente più ampio del probabile ed eventi possibili, ritenuti improbabili, possono invece attuarsi, come spesso succede, contro ogni previsione. E questa è la seconda ragione. Infine, ed ecco la terza, non possiamo trascurare che questi costrutti di probabilità future che premono sul presente ci immaginano come eterni prigionieri delle nostre azioni precedenti; ostaggi di un determinismo ingenuo che prefigura il futuro come una banale proiezione lineare del passato.</p>
+<p>Evgey Morozov dopo aver celiato su un romanzo fiction – scritto da Shumeet Baluja, uno specialista della raccolta dati di Google, e pubblicato dalla Princeton University Press [3] – ha sagacemente osservato che non sarebbe poi così romanzesco costruire su questi presupposti «terroristometri», «comunistometri» o «anarchistometri», e cioè dei misuratori predittivi di ogni tipo con tanto di punteggi e classifiche. Il fatto è, conclude Morozov, che «se si mettono insieme dati a sufficienza e si tulipano gli algoritmi giusti, tutti rischiano di essere sospetti». [4] È l’impostazione dell’algoritmo infatti che genera il sospetto.</p>
+<p>Di qui l0inquietante domanda: «Che cosa succederebbe se Facebook ci denunciasse alla polizia prima ancora che avessimo commesso un reato?» Dove ci potrebbe condurre un’idea di polizia predittiva? Purtroppo gli immaginari sulla “radicalizzazione” – parola che già in sé cova un pregiudizio – ci stanno spingendo in qualche modo proprio in questa direzione, come testimoniano alcuni recenti decreti sulla “sicurezza” e le loro applicazioni.</p>
+<p>Vanno appunto in questa direzione due storie recenti. La prima: a un panettiere di origini albanesi, ma residente in Italia, i giudici della sezione “misure di prevenzione” del Tribunale di Bari, ritenendo che i suoi post su Facebook inneggiassero all’islamismo radicale, hanno prescritto misure di sorveglianza speciale con l’indicazione di seguire un programma di de-radicalizzazione consistente nello studio dei valori della religione islamica e il divieto temporaneo di usare dispositivi informatici. [5]</p>
+<p>Ed ecco la seconda. Un cittadino italiano il 26 maggio 2017 viene fermato e identificato agli imbarchi per la Sicilia di Villa San Giovanni. Dopo essere stato trattenuto per quattro ore, senza ragioni effettive, gli viene «notificato un foglio di via» in quanto «persona pericolosa nonché dedita alla commissione di reati che mettono in pericolo la tranquillità pubblica». [6] In sostanza, a questo cittadino – poiché in quel giorno ai Giardini di Naxos era in programma una manifestazione anti G7 – viene impedito di muoversi liberamente sul territorio italiano. La Questura, in questo caso, “suppone” che egli intenda parteciparvi e quindi, anticipando l’evento ritenuto probabile, impedisce che esso si compia. Il fatto è che la partecipazione a questo «evento scongiurato preventivamente» è un diritto sancito dalla Costituzione italiana!</p>
+<p>In queste due storie vediamo ritornare in versione digitale una rielaborazione dell’idea di «sorveglianza e punizione preventiva» già sperimentata, per restare in Italia, durante il ventennio fascista dall’OVRA (Opera Volontaria di Repressione Antfascista), dagli anni trenta fino al 1945, la polizia segreta dedicata alla sorveglianza e alla repressione, spesso preventiva, delle organizzazioni antifasciste. Con la differenza che allora erano gli schedati dal Regime a venire controllati preventivamente mentre tutti gli altri cittadini restavano relativamente fuori dall’attenzione poliziesca. Oggi, invece, tutti i cittadini vengono messi sotto attenzione predittiva e pertanto il controllo, grazie alle potenzialità tecnologiche intrinseche ai Big data e alla qualità degli algoritmi, assume un carattere totalizzante.</p>
+<ol start="2" type="1">
+<li>Predittività ed elezioni</li>
+</ol>
+<p>Tra le profilazioni predittive quella relativa alle tendenze di voto sembra essere la meno osservata anche se, per la sua rilevanza, meriterebbe un’attenzione maggiore di quella che gli viene riservata. Dico questo perché, com’è ormai esperienza comune, negli ultimi anni si va sempre più affermando, negli USA come in Europa, una tendenziale trasformazione dei soggetti costituiti del sistema politico in “partiti trasversali” post-politici, semplicemente “elettorali”.</p>
+<p>Partiti che non sono più guidati da un’ideologia distinta qualsivoglia ma sono sempre più attenti ai brividi mediatici e alle correnti emozionali che attraversano e talvolta scuotono la base elettorale del sistema. A questa trasformazione ne corrisponde un’altra: la “gestione dell’elettorato” attraverso i Big data. E ciò in due sensi. Dal basso verso l’alto per coglierle vibrazioni dei profili e le oscillazioni dei singoli elettori; e, dall’alto verso il basso, per intervenire sulle loro incertezze e sui loro dubbi con messaggi indirizzati e personalizzati.</p>
+<p>Se Google e Amazon si propongono attraverso la raccolta dei Big data di profilare i loro clienti per poter poi intervenire su di essi e indirizzarli verso prodotti appetibili, così i partiti elettorali trasversali dotati di strumentazioni informatiche e digitali, o comunque servendosi di agenzie professionali come la Cambridge Analytica, agenzia che si propone per campagne di data driven e che, come dichiara sul suo sito, ha operato in cento campagne elettorali in cinque continenti. [7] che producono e vendono questi servizi, si dispongono a conoscere meglio il proprio elettorato al fine di poter intervenire su ciascun elettore con sofisticate astuzie semantiche e psicologiche.</p>
+<p>Racconta Pedro Domingos che questa impostazione è stata «l’elemento decisivo delle elezioni residenziali del 2012» negli USA» dove «Rayd Ghani, un esperto di machine learning, organizzò la più grande operazione di analisi di tutta la storia della politica. Tutte le informazioni disponibili sugli elettori furono raggruppate in un unico database e combinate con i dati provenienti dai social network, dal marketing e altre fonti. Dopo di che, si cercò di prevedere quattro caratteristiche di ogni singolo votante: le probabilità che fosse a favore di Obama, che andasse a votare, che reagisse favorevolmente all’invito di recarsi a votare, e che potesse cambiare idea sull’elezione dopo aver affrontato un determinato argomento. Partendo da questi modelli di elettore, i responsabili della campagna eseguirono ogni notte 66.00 simulazioni del voto e utilizzarono i risultati per coordinare l’esercito dei volontari: a chi telefonare, a quali porte bussare, che cosa dire.» [8]</p>
+<p>Su questa base vennero via via acquisiti spazi elettorali, indirizzate le comunicazioni radiotelevisive, preparate le parole chiave da inserire nelle dichiarazioni alla stampa. Già nelle elezioni del 2008 questo imponente apparato di profilazione preventiva degli elettori aveva mosso i suoi primi passi sicché, quando si iniziò la campagna per la rielezione, esso era già in grado di operare senza trascurare nessuno. «Nel 2012, l’anno della rielezione, lo staff del presidente è entrato in campo con la ragionevole certezza di conoscere nomi e cognomi dei 64.465.897 americani che avevano votato Obama quattro anni prima e ha fatto avviare una campagna mirata a riattivarli uno per uno, in particolare negli Stati in bilico tra democratici e repubblicani.» [9]</p>
+<p>Monitorare in tempo reale l’intera base degli elettori e costruire l’intervento su ciascuno di essi partendo dal loro profilo psico-politico e dall’andamento delle incertezze che essi via via manifestano, da allora in poi caratterizzato in misura crescente le intenzioni di chi compete nel gioco elettorale. Gli elettori in altri termini vengono sempre meno considerati un insieme orientato da no sguardo comune e sempre più scomposti e trattati – da chi si candida a “rappresentarli” o per meglio dire dagli algoritmi che lavorano al loro servizio – come “singoli interlocutori”. Il “corpo elettorale” in tal modo cede progressivamente il passo all’alias di ciascun elettore.</p>
+<p>Non è difficile immaginare, a questo punto, che, se “Parigi val bene una messa”, come disse Enrico di Navarra che, prima di diventare Re di Francia “scelse” di convertirsi al cattolicesimo, l’acquisizione del voto di un elettore val bene una promessa. Che poi questa promessa non venga mantenuta è tutt’altra faccenda. L’importante è che essa riesca a catturare prima del voto la sua disponibilità e a indurlo a mettere la crocetta sulla casella “giusta”. A tal fine, agenzie con la Cambridge Analytica, specializzate in campagne elettoriali, ovvero nella raccolta di Big data e nel recapito di messaggi digitali personalizzati, stanno mettendo a punto sofisticate tecniche semantiche pensate per declinare un certo messaggio in un gran numero di versioni così da poterlo “allineare” in modo convincente ai profili di una vastissima gamma di elettori potenziali. Riccardo Staglianò, riportando le parole di un’analista direttamente implicata per conto della Cambridge Analytica nella campagna elettorale di Trump, ha riferito, al riguardo, che l’intervento in quell’occasione si è «concentrato sugli 80.000.000 di americani dei diciassette Stati in Bilico per suggerire agli attivisti come tarare i messaggi.» [10]</p>
+<p>Per non dare l’impressione che si stia parlando soltanto di terre lontane occorre fare almeno un cenno anche alla piattaforma Rousseau che dal 2016 ha fatto la sua comparsa in Italia sotto il segno della Casaleggio Associati, un’agenzia che opera sul mercato e offre le sue produzioni a chiunque voglia acquistarle. Volendo, come si legge sul sito, si potrebbe ordinare «l’ideazione e il lancio di campagne di social media marketing, di digital marketing», proprio come si può fare sul sito della Cambridge Analytica. Ancora prima di inaugurare la piattaforma Rousseau, tuttavia, Gianroberto Casaleggio, unendosi in sodalizio con altri, si era lanciato un un progetto post-ideologico e post-politico tarato sui Big data dando impulso al Movimento 5 Stelle.</p>
+<p>Avvalendosi della competenza digitale della sua azienda e sulla scia dei nuovi indirizzi che arrivavano dalle campagne elettorali USA, come hanno documentato due suoi collaboratori, si è subito impegnato a costruire i profili delle persone che avevano a che fare con il Movimento – «chi sono, dove abitano, come votano, quanto donano» – perché queste informazioni, nella prospettiva dello sfruttamento elettorale dei Big data, come essi affermano, «hanno un valore incalcolabile». [11]</p>
+<p>Ciò in Italia è rimasto piuttosto inosservato e ancora oggi fluttua in una zona grigia tra il non compreso, il sottovalutato e il sottaciuto. Comunque, in occasione di un referendum svoltosi l’8 gennaio 2017 sull’adesione al gruppo dei liberali europei (ALDE), gli aventi diritto, ovvero i regolarmente iscritti alla piattaforma, erano in quel momento all’incirca 120.000. Ezio Mauro ha ripreso la questione osservando che: «Il referendum avviene su una piattaforma software privata di una società privata che gestisce la cosa pubblica che c’è. Vale a dire la proposta politica di un movimento e conserva nomi e password degli iscritti nella mitica fondazione Rousseau come in uno scrigno segreto». [12]</p>
+<p>Parole esplicite anche se, più che “mitica”, la piattaforma Rousseau sembra essere una dimostrazione concreta di come, anche in Italia, si sia ormai di fronte all’esordio delle tecnologie digitali nella “gestione trasversale” degli elettori. Un esordio debole visto che, come ha reso noto un suo promotore, nell’agosto del 2017 raggiungeva a malapena i 140.000 iscritti. E anche vulnerabile, come i due hackeraggi subiti nello stesso periodo hanno dimostrato. In quell’occasione i dati sensibili e le password di protezione degli iscritti vengo decrittati e pubblicati, così come la vulnerabilità degli algoritmi che gestiscono le operazioni “segrete” di voto subì uno smacco.</p>
+<p>Detto questo, il bacio della piattaforma Rousseau, per le suggestioni che la finzione di “democrazia diretta” attraverso il ricorso alla votazione online cerca di accreditare nell’immaginario collettivo, resta paradossalmente un’operazione insidiosa. E il paradosso sta nel fatto che neppure il post-ideologico può farsi beffa i due limite logico. Cosa ci potrà mai essere, infatti, di “diretto” in un dispositivo di intermediazione digitale brevettato che registra e profila gli elettori mettendo sia le chiavi informatiche sia il codice fonte saldamente in mano – hacker permettendo! – a un’azienda capitalistica privata che ne detiene la proprietà e opera sul mercato?</p>
+<p>Comunque sia, su questa piattaforma è stata pubblicata di recente una inchiesta molto documentata e interessante. In essa si precisa che i server di cui la piattaforma Rousseau si avvale fanno parte dello stesso set che comprende anche il blog di Beppe Grillo, il sito del M5S, il blog del M5S, e altri tre siti correlati: Tse Tse, La cosa, La fucina. Stessi server e stesso indirizzo IP. [13] Del resto, a completare il quadro provvedono in modo sostanziale le precisazioni sulla Privacy Police riportate sul blog Beppegrillo.it. Vi si legge: «Titolare del trattamento (dei dati acquisiti) ai sensi della normativa vigente è Beppe Grillo, mentre il responsabile del trattamento è Casaleggio Associati srl». E ancora: «I dati acquisiti verranno condivisi con il blog delle stelle e dunque comunicati alla Associazione Rousseau».</p>
+<p>Come si vede, la relazione tra elettori e dati, tra profanazioni e momenti elettorali, trova in questa esemplificazione nostrana un modello esplicitamente “dichiarato”. Un’azienda tecnologica privata – la Casaleggio Associati – e un soggetto elettorale trasversale “né di destra né di sinistra” – il Movimento 5 Stelle – inaugurano in Italia l’era della post-politica digitale. Dove ciò che conta non è più convincere gli elettori del valore dei programmi e degli orientamenti professati, se pur ve ne fossero, ma, rovesciando la prospettiva, intercettare le persuasioni e le inquietudini di ciascun elettore per poi manipolarne l’indirizzo in forma di voto con appositi condizionamenti mirati.</p>
+<p>Come avrete intuito una delle conseguenze più rilevanti di questa deriva – alla quale per le sue propensioni decisamente autoritarie sarà bene dedicare crescente attenzione collettiva – è l’autonomizzazione dei decisori finali dalla promessa elettorale. La quale assume un carattere sempre più personalizzato ma, proprio per questo, innesca anche un processo evanescente e dagli esiti causali. Dicendo a ciascuno “ciò che vuole farsi sentire dire”, i decisori sperano d’intascare nell’immediato il suo voto, ma, non essendo in alcun modo possibile accontentare un ventaglio sbriciolata di aspettative singolarmente divergenti, quale sarà il ritorno dell’incauta promessa, su un tempo più lungo?</p>
+<p>Non lo sappiamo. Intanto però stiamo assistendo a una metamorfosi della politica istituzionalizzata così come le tradizioni elettorali del secondo Novecento ce l’hanno fin qui rappresentata. Il dispositivo che costruisce e gestisce il ciclo elettorale a partire dai Big data infatti scardina alla radice l’idea stessa di rappresentanza. L’eletto, qui, non rappresenta altro che la fredda alchimia degli algoritmi al suo servizio, della potenza manipolatori della sua piattaforma e, va da sé, del gruzzolo con cui riesce ad acquistare “il meglio” delle tecnologie di cattura offerte dal mercato. Ma tutto ciò finisce anche con dirci che gli eletti con queste procedure artificiali assomigliano sempre di più a una forma inedita di cibori post-politici e sempre meno a esponenti della dimensione umana.</p>
+<p>•</p>
+<p>[1] Philip K. Dick, Rapporto di minoranza e altri racconti (1956), Fanucci, Roma 2002; Steven Spielberg, Minority Report, film Twentieth Century Fox, 2002.</p>
+<p>[2] Alex Pentland, Prefazione a Cosimo Accoto, Il mondo dato. Cinque lezioni di filosofia digitale, Egea, Milano 2017.</p>
+<p>[3] Shumeet Baluja, Silicon Jungle, Dedalo, Bari 2011.</p>
+<p>[4] Pedro Domingos, L’algoritmo definitivo, Bollati Boringhieri, Torino 2016.</p>
+<p>[5] G.D.M., «la Repubblica», 10.02.2017.</p>
+<p>[6] Delio De Blasi, Il mio diritto violato, «il Manifesto», 31.04.2017.</p>
+<p>[7] Cambridge Analytica.</p>
+<p>[8] Pedro Domingos, L’algoritmo definitivo, Bollati Boringhieri, Torino 2016.</p>
+<p>[9] Giuliano da Empoli, La rabbia e l’algoritmo. Il grillismo preso sul serio, Marsilio, Padova 2017.</p>
+<p>[10] Riccardo Staglianò, Così ho fatto vincere Trump, «Venerdì della Repubblica», 10.02.2017.</p>
+<p>[11] Nicola Biondo e Marco Canestrari, citazione ripresa da: Giuliano da Empoli, La rabbia e l’algoritmo (cit.); con ulteriori articolazioni si ritrova in Supernova – Com’è stato ucciso il MoVimento 5 Stelle.</p>
+<p>[12] Ezio Mauro, «La Repubblica» 12.01.2017.</p>
+<p>[13] Alberto Nardelli – Craig Silverman, Inchiesta: Movimento 5 Stelle primo in Europa a diffondere notizie false e propaganda russa, «Buzzfeed.com», 30.09.2016.</p>
+<p>•</p>
+<p>Tratto da: Renato Curcio, “La società artificiale”, Sensibili alle foglie, Roma 2017, pp.&nbsp;24-32.</p>
+
+
+</main></div>
+    </div>
+    <img src="/images/2018/01/urna.png" class="about-image
+  rounded " style="width: 15em;">
+  </div>
+</div>
+ <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiato!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiato!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
